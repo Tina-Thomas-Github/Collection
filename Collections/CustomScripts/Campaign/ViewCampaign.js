@@ -29,7 +29,7 @@ function BindData() {
                 html += '</small><h3 class="cardheader">' + item.CustomerCount;
                 html += '</h3></div><div class="bottom_section"> <div class="button_vendor">Vendor';
                 html += '<i class="fa fa-users" aria-hidden="true"></i><span class="badge">' + item.VendorCount;
-                html += '</span></div><div class="detail_button"><a href="/Home/Dashboard"> View Details</a>';
+                html += '</span></div><div class="detail_button"><a href="/Campaign/Customer">View Details</a>';
                 html += '</div></div></div></div>';   
                 $('#card_id').append(html);
             });

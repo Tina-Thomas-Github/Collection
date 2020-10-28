@@ -179,6 +179,7 @@
     <Compile Include="Controllers\CampaignController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\VendorController.cs" />
+    <Compile Include="Controllers\DataWarehouseController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -2057,7 +2058,8 @@
     <Content Include="Views\Account\NewPassword.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\Filter.cshtml" />
-    <Content Include="Views\DataWarehouse\Explae.cshtml" />
+    <Content Include="Views\DataWarehouse\Explore.cshtml" />
+    <Content Include="Views\DataWarehouse\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -48,7 +48,7 @@ function BindData() {
                     + "</td><td>" + item.ExitTYpe
                     //+ "</td><td>" + item.ModelStatus
                     + "</td>"
-                    + '<td><a class="btn btn -default btn - split btn- sm" href="#" onclick="return Editdata(' + item.InvestmentTypeID + ')" style="border: 1px solid; " ><i class="fa fa - pen"></i> Edit</a>'
+                    + '<td><a class="btn btn -default btn - split btn- sm" href="/Campaign/Edit" style="border: 1px solid;" ><i class="fa fa - pen"></i> Edit</a>'
                     //| <a class="btn btn -default btn - split btn - sm" href="#" onclick="DeleteData(' + item.Segment_id + ')" style="border: 1px solid; "><i class="fa fa - trash"></i> Delete</a>
                     +"</td>"
                 ).appendTo('#table_id');

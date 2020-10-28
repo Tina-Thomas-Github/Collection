@@ -118,7 +118,6 @@ function ClearFields() {
     $('#txtVendorShortName').attr('readonly');
     $('#chkstatus').attr('checked', false);
 }
-
 function validateField() {
     var isValid = true;
         if ($("#txtVendorName").val() == null || $("#txtVendorName").val() == "" || $("#txtVendorName").val() == undefined) {
@@ -161,6 +160,7 @@ function Editdata(id) {
 }
 function Edit(id) {
     $('#VendorForm').modal('show');
+    var chkflag = false;
     Vendor = {
         VendorID: id,
         Operation: "edit"
@@ -173,7 +173,7 @@ function Edit(id) {
         data: JSON.stringify(Vendor),
         success: function (response) {
             $('#hdnVendorID').val(response[0].VendorId);
-            if (response[0].IsActive) {
+            if (response[0].IsActive==1) {
                 chkflag = true;
             }
             $('#chkstatus').attr('checked', chkflag);
