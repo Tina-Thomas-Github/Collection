@@ -185,6 +185,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\bootstrap-multiselect.css" />
+    <Content Include="CSS\bootstrap.min.css" />
+    <Content Include="CSS\Chat.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -202,17 +205,20 @@
     <Content Include="CustomScripts\Account\SecurityQuestions.js" />
     <Content Include="CustomScripts\Account\LoginAccount.js" />
     <Content Include="CustomScripts\Campaign\Create.js" />
-    <Content Include="CustomScripts\Campaign\SGBDownload.js" />
     <Content Include="CustomScripts\Campaign\ViewCampaign.js" />
     <Content Include="CustomScripts\Vendor\Create.js" />
     <Content Include="CustomScripts\Vendor\ViewVendor.js" />
-    <Content Include="favicon.ico" />
+    <Content Include="CSS\Dashborad.css" />
+    <Content Include="CSS\dataTables.bootstrap.min.css" />
+    <Content Include="CSS\datepicker-1.3.0.css" />
+    <Content Include="CSS\favicon.ico" />
+    <Content Include="CSS\fixedHeader.bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="CSS\FRRcss.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\css\sb-admin-2.css" />
     <Content Include="Content\css\sb-admin-2.min.css" />
-    <Content Include="Content\img\undraw_posting_photo.svg" />
     <Content Include="Content\js\demo\chart-area-demo.js" />
     <Content Include="Content\js\demo\chart-bar-demo.js" />
     <Content Include="Content\js\demo\chart-pie-demo.js" />
@@ -1795,6 +1801,7 @@
     <Content Include="Content\vendor\jquery\jquery.min.js" />
     <Content Include="Content\vendor\jquery\jquery.slim.js" />
     <Content Include="Content\vendor\jquery\jquery.slim.min.js" />
+    <Content Include="CSS\Header.css" />
     <Content Include="Images\background.jpg" />
     <Content Include="Images\create\calendar.svg" />
     <Content Include="Images\campaign_icon.svg" />
@@ -1806,6 +1813,19 @@
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\create\upload.svg" />
     <Content Include="Images\vendor_icon.svg" />
+    <Content Include="CSS\jquery 1.8.css" />
+    <Content Include="CSS\jQuery UI - v1.11.4.css" />
+    <Content Include="CSS\jquery-ui-1.12.1.css" />
+    <Content Include="CSS\jquery-ui.css" />
+    <Content Include="CSS\jquery-ui.min.css" />
+    <Content Include="CSS\jquery-ui.theme.css" />
+    <Content Include="CSS\jquery-ui.theme.min.css" />
+    <Content Include="CSS\jquery.multiselect.css" />
+    <Content Include="CSS\jquery.multiselect.filter.css" />
+    <Content Include="CSS\jquery1.10.2-ui.css" />
+    <Content Include="CSS\magicsuggest-min.css" />
+    <Content Include="CSS\menu.css" />
+    <Content Include="CSS\responsive.bootstrap.min.css" />
     <Content Include="Scripts\Autocomplete.js" />
     <Content Include="Scripts\bootbox.min.js" />
     <Content Include="Scripts\bootstrap-datepicker-1.3.0.js" />
@@ -1813,29 +1833,6 @@
     <Content Include="Scripts\bootstrap-waitingfor.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Content\scss\navs\_global.scss" />
-    <Content Include="Content\scss\navs\_sidebar.scss" />
-    <Content Include="Content\scss\navs\_topbar.scss" />
-    <Content Include="Content\scss\sb-admin-2.scss" />
-    <Content Include="Content\scss\utilities\_animation.scss" />
-    <Content Include="Content\scss\utilities\_background.scss" />
-    <Content Include="Content\scss\utilities\_border.scss" />
-    <Content Include="Content\scss\utilities\_display.scss" />
-    <Content Include="Content\scss\utilities\_progress.scss" />
-    <Content Include="Content\scss\utilities\_rotate.scss" />
-    <Content Include="Content\scss\utilities\_text.scss" />
-    <Content Include="Content\scss\_buttons.scss" />
-    <Content Include="Content\scss\_cards.scss" />
-    <Content Include="Content\scss\_charts.scss" />
-    <Content Include="Content\scss\_dropdowns.scss" />
-    <Content Include="Content\scss\_error.scss" />
-    <Content Include="Content\scss\_footer.scss" />
-    <Content Include="Content\scss\_global.scss" />
-    <Content Include="Content\scss\_login.scss" />
-    <Content Include="Content\scss\_mixins.scss" />
-    <Content Include="Content\scss\_navs.scss" />
-    <Content Include="Content\scss\_utilities.scss" />
-    <Content Include="Content\scss\_variables.scss" />
     <Content Include="Content\vendor\bootstrap\js\bootstrap.bundle.js.map" />
     <Content Include="Content\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
     <Content Include="Content\vendor\bootstrap\js\bootstrap.js.map" />
@@ -2025,6 +2022,9 @@
     <Content Include="Scripts\table2excel.js" />
     <Content Include="Scripts\tinymce.min.js" />
     <Content Include="Scripts\vfs_fonts.js" />
+    <Content Include="CSS\styles.css" />
+    <Content Include="CSS\Textboxlable.css" />
+    <Content Include="CSS\uploadfile.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

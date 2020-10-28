@@ -1,0 +1,712 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #f8f8f8;
+    background-size: 100%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #000;
+}
+
+p {
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.clr {
+    clear: both;
+    height: 0px;
+}
+
+.headerHolderPast {
+    background: #ad8c80;
+    border-bottom: #ad8c80 solid 1px;
+}
+
+.addNew {
+    float: right;
+    display: block;
+    width: 125px;
+    height: 23px;
+    line-height: 23px;
+    margin-left: 10px;
+    color: #9b393b;
+    text-align: center;
+    background: url(../images/btn_add_new_today.png);
+    text-decoration: none;
+    font-size: 12px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.viewFullList {
+    float: right;
+    display: block;
+    width: 85px;
+    height: 23px;
+    line-height: 23px;
+    margin-left: 10px;
+    color: #9b393b;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.headerHolderToday {
+    background: #b44244;
+    background: -moz-linear-gradient(top, #b44244 0%, #9b393b 100%);
+    background: -webkit-linear-gradient(top, #b44244 0%, #9b393b 100%);
+    background: linear-gradient(to bottom, #b44244 0%, #9b393b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b44244', endColorstr='#9b393b', GradientType=0 );
+}
+
+.headerHolderFuture {
+    background: #868686;
+    background: -moz-linear-gradient(top, #868686 1%, #727171 100%);
+    background: -webkit-linear-gradient(top, #868686 1%, #727171 100%);
+    background: linear-gradient(to bottom, #868686 1%, #727171 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#868686', endColorstr='#727171', GradientType=0 );
+}
+
+.fltright {
+    float: right !important;
+}
+
+.flexiHeader {
+    background: #832526 url(../images/bg_header.gif) repeat-x left top;
+    height: 55px;
+    border-bottom: #de6900 solid 4px;
+    position: relative;
+}
+
+.flexiTopNav {
+    background: url(../images/bg_topnav.gif) left top;
+    line-height: 32px;
+    height: 32px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #000;
+    padding: 0 3%;
+}
+
+    .flexiTopNav ul.topnav {
+        margin: 0;
+        padding: 0;
+    }
+
+        .flexiTopNav ul.topnav li {
+            display: inline;
+        }
+
+            .flexiTopNav ul.topnav li a {
+                float: left;
+                display: block;
+                color: #000;
+                text-decoration: none;
+                margin-right: 5px;
+                padding: 0 6px;
+                line-height: 30px;
+            }
+
+                .flexiTopNav ul.topnav li a.current, .flexiTopNav ul.topnav li a:hover {
+                    text-decoration: none;
+                    color: #832526;
+                    background: url(../images/topnav_hover.gif) repeat-x left top;
+                }
+
+.flexiFooter {
+    background: url(../images/bg_footer.gif) repeat-x left top;
+    width: 100%;
+    height: 25px;
+    padding-top: 2px;
+    line-height: 25px;
+    color: #fff;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+.flexiHeader div.left {
+    width: 30%;
+    height: 55px;
+    position: absolute;
+    left: 3%;
+    top: 0px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.flexiHeader div.loginLeft {
+    width: 30%;
+    height: 55px;
+    padding: 0px;
+    position: absolute;
+    left: 3%;
+    top: 0px;
+}
+
+    .flexiHeader div.loginLeft img.logoIndusInd, .flexiHeader div.left img.logoIndusInd {
+        float: left;
+        margin-top: 19px;
+        display: block;
+    }
+
+.flexiHeader div.left img.nhaLogo {
+    margin-top: 6px;
+}
+
+.flexiHeader div.loginCenter {
+    margin: 0 auto;
+    width: 200px;
+    height: 55px;
+    text-align: center;
+}
+
+.flexiHeader div.center {
+    width: 35%;
+    height: 55px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 55px;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.flexiHeader div.loginRight {
+    width: 35%;
+    height: 45px;
+    padding: 3px 0 5px 0;
+    position: absolute;
+    right: 3%;
+    top: 0px;
+    text-align: right;
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+    font-style: italic;
+}
+
+.flexiHeader div.right {
+    width: 35%;
+    height: 42px;
+    padding: 8px 0 5px 0;
+    position: absolute;
+    right: 3%;
+    top: 0px;
+    text-align: right;
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+    .flexiHeader div.right span {
+        display: block;
+        float: right;
+        margin: 0px 3px 0 0px;
+    }
+
+    .flexiHeader div.right a {
+        display: block;
+        width: 43px;
+        height: 38px;
+        float: right;
+        margin-left: 7px;
+        background: url(../images/buttons_sprite.png) no-repeat;
+        text-indent: -999px !important;
+        font-size: 0px;
+    }
+
+        .flexiHeader div.right a.home {
+            background-position: 0px 0px;
+            transition: background-position linear 100ms;
+        }
+
+            .flexiHeader div.right a.home:hover {
+                background-position: 0 -38px;
+                transition: background-position linear 100ms;
+            }
+
+        .flexiHeader div.right a.homeselected {
+            background-position: 0 -38px;
+            transition: background-position linear 100ms;
+        }
+
+        .flexiHeader div.right a.logout {
+            background-position: -44px 0px;
+            transition: background-position linear 100ms;
+        }
+
+            .flexiHeader div.right a.logout:hover {
+                background-position: -44px -38px;
+                transition: background-position linear 100ms;
+            }
+
+.homeContentHolder {
+    width: 94%;
+    margin: 30px auto 100px auto;
+}
+
+    .homeContentHolder div.homeContentBlock {
+        width: 30%;
+        float: left;
+        margin-right: 5%;
+        background: #fff 0.3;
+    }
+
+.innerContentHolder {
+    width: 94%;
+    margin: 20px auto 100px auto;
+}
+
+.breadCrumbHolder {
+    line-height: 18px;
+    font-size: 14px;
+    color: #832526;
+    text-indent: 24px;
+    background: url(../images/bullet_innerpage_headings.png) left top no-repeat;
+    padding-bottom: 10px;
+    border-bottom: #d1cfcf solid 1px;
+    margin-bottom: 5px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+    .breadCrumbHolder span {
+        color: #000;
+        font-weight: bold;
+    }
+
+    .breadCrumbHolder a {
+        color: #832526;
+        text-decoration: underline;
+    }
+
+.loginContentHolder {
+    width: 1000px;
+    margin: 100px auto;
+}
+
+    .loginContentHolder a {
+        color: #832526;
+        text-decoration: none;
+    }
+
+        .loginContentHolder a:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+
+    .loginContentHolder div.loginHolder {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+        .loginContentHolder div.loginHolder p {
+            padding-bottom: 8px;
+            display: block;
+            text-align: center;
+        }
+
+            .loginContentHolder div.loginHolder p.appName {
+                font-size: 20px;
+            }
+
+            .loginContentHolder div.loginHolder p.narration {
+                font-size: 15px;
+                padding-bottom: 30px;
+            }
+
+    .loginContentHolder div.txtboxHolder input {
+        width: 93%;
+        margin-bottom: 10px;
+        padding: 4% 3%;
+        border: #cccccc solid 1px;
+        border-radius: 5px;
+        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        text-align: center;
+    }
+
+        .loginContentHolder div.txtboxHolder input:focus {
+            background: #fffaaa;
+        }
+
+    .loginContentHolder div.chkboxHolder {
+        width: 250px;
+        color: #000;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .loginContentHolder div.btnHolder {
+        margin-bottom: 10px;
+    }
+
+        .loginContentHolder div.btnHolder input {
+            width: 49%;
+            height: 33px;
+            border: #832526 solid 1px;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 15px;
+            margin-right: 0.5%;
+            outline: none;
+            background: rgb(131,37,38);
+            background: -moz-linear-gradient(0deg, rgba(131,37,38,1) 0%, rgba(180,73,75,1) 100%);
+            background: -webkit-linear-gradient(0deg, rgba(131,37,38,1) 0%, rgba(180,73,75,1) 100%);
+            background: linear-gradient(0deg, rgba(131,37,38,1) 0%, rgba(180,73,75,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#832526", endColorstr="#b4494b", GradientType=1);
+        }
+
+            .loginContentHolder div.btnHolder input.btnCancel {
+                border: #8c8c8c solid 1px;
+                color: #fff;
+                margin-right: 0%;
+                background: #9b393b;
+                background: -moz-linear-gradient(0deg, rgba(140,140,140,1) 0%, rgba(192,191,191,1) 100%);
+                background: -webkit-linear-gradient(0deg, rgba(140,140,140,1) 0%, rgba(192,191,191,1) 100%);
+                background: linear-gradient(0deg, rgba(140,140,140,1) 0%, rgba(192,191,191,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8c8c8c", endColorstr="#c0bfbf", GradientType=1);
+            }
+
+            .loginContentHolder div.btnHolder input:focus {
+            }
+
+div.dashboardLeft {
+    width: 69%;
+    float: left;
+}
+
+div.dashboardRight {
+    width: 30%;
+    float: left;
+    margin-left: 1%;
+}
+/*============ Dashboard Todays Meeting Styles Starts ============*/
+.dashTodaysMeetingMainHolder {
+    border: #b03b3d solid 1px;
+    border-bottom: 0px;
+}
+
+    .dashTodaysMeetingMainHolder div.headerHolder {
+        height: 40px;
+        width: 98%;
+        font-size: 14px;
+        color: #fff;
+        padding: 0 1%;
+        background: #b44244;
+        background: -moz-linear-gradient(top, #b44244 0%, #9b393b 100%);
+        background: -webkit-linear-gradient(top, #b44244 0%, #9b393b 100%);
+        background: linear-gradient(to bottom, #b44244 0%, #9b393b 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b44244', endColorstr='#9b393b', GradientType=0 );
+    }
+
+    .dashTodaysMeetingMainHolder div.boxTitle {
+        display: block;
+        float: left;
+        line-height: 20px;
+        background: url(../images/bullet_white_arrow.png) no-repeat left center;
+        padding-left: 23px;
+    }
+
+    .dashTodaysMeetingMainHolder div.headerHolder a.addNew {
+        float: right;
+        display: block;
+        width: 124px;
+        height: 28px;
+        padding-right: 10px;
+        margin-top: 6px;
+        color: #9b393b;
+        background: url(../images/btn_add_new_today.png);
+        text-align: right;
+        line-height: 28px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    .dashTodaysMeetingMainHolder div.headerHolder a.viewFullList {
+        float: right;
+        display: block;
+        width: 85px;
+        height: 23px;
+        line-height: 23px;
+        margin-top: 9px;
+        margin-left: 10px;
+        color: #9b393b;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+        background: #fff;
+        border-radius: 5px;
+    }
+
+    .dashTodaysMeetingMainHolder div.meetingBlock {
+        border-bottom: #b03b3d solid 1px;
+        padding: 1%;
+        background: #fff;
+        height: 65px;
+    }
+
+    .dashTodaysMeetingMainHolder div.calendarHolder {
+        border: #7c7b7b solid 1px;
+        float: left;
+        width: 8%;
+        margin-right: 1%;
+        background: #fff;
+    }
+
+        .dashTodaysMeetingMainHolder div.calendarHolder div.month {
+            background: #626262;
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            height: 30%;
+            padding: 3% 0;
+        }
+
+        .dashTodaysMeetingMainHolder div.calendarHolder div.date {
+            color: #000;
+            font-size: 16px;
+            text-align: center;
+            font-weight: bold;
+            height: 30%;
+            padding: 5% 0 3% 0;
+        }
+
+        .dashTodaysMeetingMainHolder div.calendarHolder div.year {
+            color: #000;
+            font-size: 12px;
+            text-align: center;
+            height: 30%;
+            padding-bottom: 5%;
+        }
+
+    .dashTodaysMeetingMainHolder div.detailsHolder {
+        float: left;
+        width: 83%;
+    }
+
+        .dashTodaysMeetingMainHolder div.detailsHolder p {
+            padding-bottom: 0px;
+        }
+
+    .dashTodaysMeetingMainHolder div.arrowHolder {
+        float: left;
+        width: 7%;
+        text-align: center;
+        height: 65px;
+    }
+
+        .dashTodaysMeetingMainHolder div.arrowHolder img {
+            margin-top: 18px;
+        }
+/*============ Dashboard Todays Meeting Styles ENDS ============*/
+/*============ Dashboard Future Meeting Styles Starts ============*/
+.dashFutureMeetingMainHolder {
+    border: #777676 solid 1px;
+    border-bottom: 0px;
+}
+
+    .dashFutureMeetingMainHolder div.headerHolder {
+        height: 40px;
+        width: 98%;
+        font-size: 14px;
+        color: #fff;
+        padding: 0 1%;
+        background: #868686;
+        background: -moz-linear-gradient(top, #868686 1%, #727171 100%);
+        background: -webkit-linear-gradient(top, #868686 1%, #727171 100%);
+        background: linear-gradient(to bottom, #868686 1%, #727171 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#868686', endColorstr='#727171', GradientType=0 );
+    }
+
+    .dashFutureMeetingMainHolder div.boxTitle {
+        display: block;
+        float: left;
+        line-height: 20px;
+        background: url(../images/bullet_white_arrow.png) no-repeat left center;
+        padding-left: 23px;
+    }
+
+    .dashFutureMeetingMainHolder div.headerHolder a.addNew {
+        float: right;
+        display: block;
+        width: 124px;
+        height: 28px;
+        padding-right: 10px;
+        margin-top: 6px;
+        color: #3c3c3c;
+        background: url(../images/btn_add_new_future.png);
+        text-align: right;
+        line-height: 28px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    .dashFutureMeetingMainHolder div.headerHolder a.viewFullList {
+        float: right;
+        display: block;
+        width: 85px;
+        height: 23px;
+        line-height: 23px;
+        margin-top: 9px;
+        margin-left: 10px;
+        color: #3c3c3c;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+        background: #fff;
+        border-radius: 5px;
+    }
+
+    .dashFutureMeetingMainHolder div.meetingBlock {
+        border-bottom: #7c7b7b solid 1px;
+        padding: 1%;
+        background: #fff;
+        height: 65px;
+    }
+
+    .dashFutureMeetingMainHolder div.calendarHolder {
+        border: #7c7b7b solid 1px;
+        float: left;
+        width: 8%;
+        margin-right: 1%;
+        background: #fff;
+    }
+
+        .dashFutureMeetingMainHolder div.calendarHolder div.month {
+            background: #626262;
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            height: 30%;
+            padding: 3% 0;
+        }
+
+        .dashFutureMeetingMainHolder div.calendarHolder div.date {
+            color: #000;
+            font-size: 16px;
+            text-align: center;
+            font-weight: bold;
+            height: 30%;
+            padding: 5% 0 3% 0;
+        }
+
+        .dashFutureMeetingMainHolder div.calendarHolder div.year {
+            color: #000;
+            font-size: 12px;
+            text-align: center;
+            height: 30%;
+            padding-bottom: 5%;
+        }
+
+    .dashFutureMeetingMainHolder div.detailsHolder {
+        float: left;
+        width: 83%;
+    }
+
+        .dashFutureMeetingMainHolder div.detailsHolder p {
+            padding-bottom: 0px;
+        }
+
+    .dashFutureMeetingMainHolder div.arrowHolder {
+        float: left;
+        width: 7%;
+        text-align: center;
+        height: 65px;
+    }
+
+        .dashFutureMeetingMainHolder div.arrowHolder img {
+            margin-top: 18px;
+        }
+/*============ Dashboard Future Meeting Styles ENDS ============*/
+/*============ Dashboard Past Meeting Styles Starts ============*/
+.dashPastMeetingMainHolder {
+    border: #ad8c80 solid 1px;
+    border-bottom: 0px;
+}
+
+    .dashPastMeetingMainHolder div.headerHolder {
+        height: 39px;
+        width: 96%;
+        font-size: 14px;
+        color: #9b393b;
+        padding: 0 2%;
+        background: #fff;
+        border-bottom: #9b393b solid 1px;
+    }
+
+    .dashPastMeetingMainHolder div.boxTitle {
+        display: block;
+        float: left;
+        line-height: 20px;
+        background: url(../images/bullet_maroon_arrow.png) no-repeat left center;
+        padding-left: 23px;
+    }
+
+    .dashPastMeetingMainHolder div.headerHolder a.viewFullList {
+        float: right;
+        display: block;
+        width: 85px;
+        height: 23px;
+        line-height: 23px;
+        margin-top: 9px;
+        margin-left: 10px;
+        color: #9b393b;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+        background: #fff;
+        border-radius: 5px;
+        border: #9b393b solid 1px;
+    }
+
+    .dashPastMeetingMainHolder div.meetingBlock {
+        border-bottom: #9b393b solid 1px;
+        padding: 2%;
+        background: #fff;
+        height: 67px;
+    }
+
+    .dashPastMeetingMainHolder div.detailsHolder {
+        float: left;
+        width: 85%;
+    }
+
+        .dashPastMeetingMainHolder div.detailsHolder p {
+            padding-bottom: 0px;
+        }
+
+    .dashPastMeetingMainHolder div.arrowHolder {
+        float: left;
+        width: 10%;
+        text-align: center;
+        height: 65px;
+    }
+
+        .dashPastMeetingMainHolder div.arrowHolder img {
+            margin-top: 18px;
+        }
+/*============ Dashboard Past Meeting Styles ENDS ============*/
+.dashCalendarMainHolder {
+    border: #9b393b solid 1px;
+    background: #fff;
+    height: 288px;
+}
+
+.dashTodaysMeetingMainHolder div.meetingBlock:hover, .dashFutureMeetingMainHolder div.meetingBlock:hover, .dashPastMeetingMainHolder div.meetingBlock:hover {
+    background: #f6e8e9;
+}
+.hide {
+    display:none!important;
+}
