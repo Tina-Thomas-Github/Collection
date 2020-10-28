@@ -1,0 +1,567 @@
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\AMS_TOD_DAL.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\AMS_TOD_DAL.pdb
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\netstandard.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.AppContext.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Collections.Concurrent.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Collections.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Collections.NonGeneric.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Collections.Specialized.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.ComponentModel.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Console.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Data.Common.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Diagnostics.Debug.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Diagnostics.Process.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Diagnostics.Tools.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Drawing.Primitives.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Dynamic.Runtime.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Globalization.Calendars.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Globalization.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Globalization.Extensions.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.IO.Compression.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.IO.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.IO.FileSystem.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.IO.Pipes.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Linq.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Linq.Expressions.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Linq.Parallel.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Linq.Queryable.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Net.Http.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Net.NameResolution.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Net.NetworkInformation.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Net.Ping.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Net.Primitives.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Net.Requests.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Net.Security.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Net.Sockets.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Net.WebSockets.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.ObjectModel.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Reflection.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Reflection.Extensions.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Reflection.Primitives.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Resources.Reader.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Resources.ResourceManager.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Resources.Writer.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Runtime.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Runtime.Extensions.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Runtime.Handles.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Runtime.InteropServices.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Runtime.Numerics.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Security.Claims.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Security.Principal.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Security.SecureString.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Text.Encoding.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Text.RegularExpressions.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Threading.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Threading.Overlapped.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Threading.Tasks.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Threading.Thread.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Threading.ThreadPool.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Threading.Timer.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.ValueTuple.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Xml.XDocument.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Xml.XmlDocument.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Xml.XPath.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\AMS_TOD_MODELS.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\Dapper.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\bin\Debug\AMS_TOD_MODELS.pdb
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\obj\Debug\AMS_TOD_DAL.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_DAL\obj\Debug\AMS_TOD_DAL.pdb
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\DAL.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\DAL.pdb
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\netstandard.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.AppContext.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Collections.Concurrent.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Collections.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Collections.NonGeneric.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Collections.Specialized.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.ComponentModel.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Console.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Data.Common.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.Debug.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.Process.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.Tools.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Drawing.Primitives.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Dynamic.Runtime.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Globalization.Calendars.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Globalization.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Globalization.Extensions.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.IO.Compression.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.IO.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.IO.FileSystem.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.IO.Pipes.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Linq.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Linq.Expressions.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Linq.Parallel.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Linq.Queryable.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Net.Http.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Net.NameResolution.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Net.NetworkInformation.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Net.Ping.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Net.Primitives.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Net.Requests.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Net.Security.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Net.Sockets.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Net.WebSockets.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.ObjectModel.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Reflection.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Reflection.Extensions.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Reflection.Primitives.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Resources.Reader.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Resources.ResourceManager.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Resources.Writer.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Runtime.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Runtime.Extensions.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Runtime.Handles.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Runtime.InteropServices.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Runtime.Numerics.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Security.Claims.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Security.Principal.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Security.SecureString.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Text.Encoding.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Text.RegularExpressions.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Threading.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Threading.Overlapped.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Threading.Tasks.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Threading.Thread.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Threading.ThreadPool.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Threading.Timer.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.ValueTuple.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Xml.XDocument.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Xml.XmlDocument.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Xml.XPath.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\Dapper.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\GENERAL_MODELS.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\bin\Debug\GENERAL_MODELS.pdb
+D:\Sandeep\Practice\PROJECT_WEB\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Sandeep\Practice\PROJECT_WEB\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Sandeep\Practice\PROJECT_WEB\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Sandeep\Practice\PROJECT_WEB\DAL\obj\Debug\DAL.dll
+D:\Sandeep\Practice\PROJECT_WEB\DAL\obj\Debug\DAL.pdb
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\DAL.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\DAL.pdb
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\netstandard.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.AppContext.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Collections.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Collections.Specialized.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.ComponentModel.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Console.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Data.Common.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Globalization.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.IO.Compression.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.IO.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.IO.FileSystem.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.IO.Pipes.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Linq.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Linq.Expressions.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Linq.Parallel.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Linq.Queryable.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Net.Http.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Net.NameResolution.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Net.Ping.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Net.Primitives.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Net.Requests.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Net.Security.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Net.Sockets.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Net.WebSockets.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.ObjectModel.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Reflection.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Resources.Reader.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Resources.Writer.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Runtime.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Runtime.Handles.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Security.Claims.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Security.Principal.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Security.SecureString.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Text.Encoding.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Threading.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Threading.Tasks.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Threading.Thread.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Threading.Timer.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.ValueTuple.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Xml.XDocument.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Xml.XPath.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\Dapper.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\EPPlus.DLL
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\Excel.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\ExcelDataReader.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\itextsharp.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\obj\Debug\DAL.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\obj\Debug\DAL.pdb
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\MODELS.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\DAL\bin\Debug\MODELS.pdb
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\DAL.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\DAL.pdb
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\netstandard.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.AppContext.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Collections.Concurrent.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Collections.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Collections.NonGeneric.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Collections.Specialized.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.ComponentModel.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.ComponentModel.Primitives.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Console.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Data.Common.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.Contracts.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.Debug.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.Process.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.Tools.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.Tracing.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Drawing.Primitives.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Dynamic.Runtime.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Globalization.Calendars.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Globalization.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Globalization.Extensions.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.Compression.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.FileSystem.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.IsolatedStorage.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.Pipes.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Linq.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Linq.Expressions.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Linq.Parallel.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Linq.Queryable.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.Http.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.NameResolution.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.NetworkInformation.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.Ping.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.Primitives.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.Requests.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.Security.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.Sockets.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.WebSockets.Client.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.WebSockets.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.ObjectModel.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Reflection.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Reflection.Extensions.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Reflection.Primitives.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Resources.Reader.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Resources.ResourceManager.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Resources.Writer.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.Extensions.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.Handles.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.InteropServices.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.Numerics.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.Claims.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.Principal.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.SecureString.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Text.Encoding.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Text.RegularExpressions.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Threading.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Threading.Overlapped.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Threading.Tasks.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Threading.Thread.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Threading.ThreadPool.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Threading.Timer.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.ValueTuple.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Xml.ReaderWriter.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Xml.XDocument.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Xml.XmlDocument.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Xml.XmlSerializer.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Xml.XPath.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\Dapper.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\EPPlus.DLL
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\Excel.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\ExcelDataReader.DataSet.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\ExcelDataReader.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\itextsharp.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\MODELS.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\MODELS.pdb
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\obj\Debug\DAL.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\DAL\obj\Debug\DAL.pdb
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\DAL.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\DAL.pdb
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\Microsoft.Win32.Primitives.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\netstandard.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.AppContext.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Collections.Concurrent.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Collections.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Collections.NonGeneric.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Collections.Specialized.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.ComponentModel.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.ComponentModel.Primitives.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.ComponentModel.TypeConverter.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Console.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Data.Common.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.Contracts.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.Debug.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.Process.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.StackTrace.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.Tools.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.TraceSource.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Diagnostics.Tracing.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Drawing.Primitives.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Dynamic.Runtime.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Globalization.Calendars.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Globalization.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Globalization.Extensions.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.Compression.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.Compression.ZipFile.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.FileSystem.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.FileSystem.Primitives.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.FileSystem.Watcher.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.IsolatedStorage.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.MemoryMappedFiles.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.Pipes.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Linq.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Linq.Expressions.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Linq.Parallel.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Linq.Queryable.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.Http.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.NameResolution.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.NetworkInformation.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.Ping.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.Primitives.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.Requests.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.Security.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.Sockets.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.WebHeaderCollection.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.WebSockets.Client.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Net.WebSockets.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.ObjectModel.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Reflection.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Reflection.Extensions.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Reflection.Primitives.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Resources.Reader.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Resources.ResourceManager.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Resources.Writer.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.Extensions.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.Handles.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.InteropServices.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.Numerics.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.Serialization.Formatters.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.Serialization.Json.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.Serialization.Primitives.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Runtime.Serialization.Xml.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.Claims.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.Cryptography.Algorithms.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.Cryptography.Csp.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.Cryptography.Encoding.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.Cryptography.Primitives.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.Principal.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Security.SecureString.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Text.Encoding.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Text.Encoding.Extensions.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Text.RegularExpressions.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Threading.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Threading.Overlapped.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Threading.Tasks.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Threading.Tasks.Parallel.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Threading.Thread.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Threading.ThreadPool.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Threading.Timer.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.ValueTuple.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Xml.ReaderWriter.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Xml.XDocument.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Xml.XmlDocument.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Xml.XmlSerializer.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Xml.XPath.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\System.Xml.XPath.XDocument.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\Dapper.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\MODELS.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\bin\Debug\MODELS.pdb
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\obj\Debug\DAL.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\DAL\obj\Debug\DAL.pdb
+D:\Invest\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Invest\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Invest\DAL\obj\Debug\DAL.dll
+D:\Invest\DAL\obj\Debug\DAL.pdb
+D:\Invest\DAL\bin\Debug\DAL.dll
+D:\Invest\DAL\bin\Debug\DAL.pdb
+D:\Invest\DAL\bin\Debug\MODELS.dll
+D:\Invest\DAL\bin\Debug\MODELS.pdb
+D:\Invest\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Invest - Copy\DAL\bin\Debug\DAL.dll
+D:\Invest - Copy\DAL\bin\Debug\DAL.pdb
+D:\Invest - Copy\DAL\bin\Debug\MODELS.dll
+D:\Invest - Copy\DAL\bin\Debug\MODELS.pdb
+D:\Invest - Copy\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Invest - Copy\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Invest - Copy\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Invest - Copy\DAL\obj\Debug\DAL.dll
+D:\Invest - Copy\DAL\obj\Debug\DAL.pdb
+D:\Collections\DAL\bin\Debug\DAL.dll
+D:\Collections\DAL\bin\Debug\DAL.pdb
+D:\Collections\DAL\bin\Debug\MODELS.dll
+D:\Collections\DAL\bin\Debug\MODELS.pdb
+D:\Collections\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Collections\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Collections\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Collections\DAL\obj\Debug\DAL.dll
+D:\Collections\DAL\obj\Debug\DAL.pdb

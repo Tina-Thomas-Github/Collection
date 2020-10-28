@@ -1,0 +1,31 @@
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\GENERAL_MODELS\bin\Debug\MODELS.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\GENERAL_MODELS\bin\Debug\MODELS.pdb
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\GENERAL_MODELS\obj\Debug\MODELS.csprojAssemblyReference.cache
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\GENERAL_MODELS\obj\Debug\MODELS.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\GENERAL_MODELS\obj\Debug\MODELS.pdb
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\MODELS\bin\Debug\MODELS.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\MODELS\bin\Debug\MODELS.pdb
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\MODELS\obj\Debug\MODELS.csprojAssemblyReference.cache
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\MODELS\obj\Debug\MODELS.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\MODELS\obj\Debug\MODELS.pdb
+D:\IntranetInvestmentForm\IntranetInvestmentForm\MODELS\bin\Debug\MODELS.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\MODELS\bin\Debug\MODELS.pdb
+D:\IntranetInvestmentForm\IntranetInvestmentForm\MODELS\obj\Debug\MODELS.csprojAssemblyReference.cache
+D:\IntranetInvestmentForm\IntranetInvestmentForm\MODELS\obj\Debug\MODELS.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\MODELS\obj\Debug\MODELS.pdb
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\MODELS\bin\Debug\MODELS.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\MODELS\bin\Debug\MODELS.pdb
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\MODELS\obj\Debug\MODELS.csproj.CoreCompileInputs.cache
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\MODELS\obj\Debug\MODELS.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\MODELS\obj\Debug\MODELS.pdb
+D:\Invest\MODELS\bin\Debug\MODELS.dll
+D:\Invest\MODELS\bin\Debug\MODELS.pdb
+D:\Invest\MODELS\obj\Debug\MODELS.csproj.CoreCompileInputs.cache
+D:\Invest\MODELS\obj\Debug\MODELS.dll
+D:\Invest\MODELS\obj\Debug\MODELS.pdb
+D:\Collections\MODELS\bin\Debug\MODELS.dll
+D:\Collections\MODELS\bin\Debug\MODELS.pdb
+D:\Collections\MODELS\obj\Debug\MODELS.csproj.CoreCompileInputs.cache
+D:\Collections\MODELS\obj\Debug\MODELS.dll
+D:\Collections\MODELS\obj\Debug\MODELS.pdb
+D:\Collections\MODELS\obj\Debug\MODELS.csprojAssemblyReference.cache

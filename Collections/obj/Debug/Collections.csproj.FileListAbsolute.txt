@@ -1,0 +1,294 @@
+D:\Invest - Copy\InvestmentForms\bin\roslyn\csc.exe
+D:\Invest - Copy\InvestmentForms\bin\roslyn\csc.exe.config
+D:\Invest - Copy\InvestmentForms\bin\roslyn\csc.rsp
+D:\Invest - Copy\InvestmentForms\bin\roslyn\csi.exe
+D:\Invest - Copy\InvestmentForms\bin\roslyn\csi.exe.config
+D:\Invest - Copy\InvestmentForms\bin\roslyn\csi.rsp
+D:\Invest - Copy\InvestmentForms\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Invest - Copy\InvestmentForms\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Invest - Copy\InvestmentForms\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.AppContext.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Collections.Immutable.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Console.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.IO.Compression.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.IO.FileSystem.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.IO.Pipes.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Reflection.Metadata.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Security.AccessControl.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Security.Claims.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.ValueTuple.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Xml.XPath.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Invest - Copy\InvestmentForms\bin\roslyn\vbc.exe
+D:\Invest - Copy\InvestmentForms\bin\roslyn\vbc.exe.config
+D:\Invest - Copy\InvestmentForms\bin\roslyn\vbc.rsp
+D:\Invest - Copy\InvestmentForms\bin\roslyn\VBCSCompiler.exe
+D:\Invest - Copy\InvestmentForms\bin\roslyn\VBCSCompiler.exe.config
+D:\Invest - Copy\InvestmentForms\bin\Antlr3.Runtime.dll
+D:\Invest - Copy\InvestmentForms\bin\BAL.dll
+D:\Invest - Copy\InvestmentForms\bin\DAL.dll
+D:\Invest - Copy\InvestmentForms\bin\itextsharp.dll
+D:\Invest - Copy\InvestmentForms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Invest - Copy\InvestmentForms\bin\Microsoft.Web.Infrastructure.dll
+D:\Invest - Copy\InvestmentForms\bin\MODELS.dll
+D:\Invest - Copy\InvestmentForms\bin\Newtonsoft.Json.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Net.Http.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Net.Http.Formatting.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Security.Cryptography.Algorithms.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Security.Cryptography.Encoding.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Security.Cryptography.Primitives.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Web.Helpers.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Web.Http.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Web.Http.WebHost.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Web.Mvc.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Web.Optimization.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Web.Razor.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Web.WebPages.Deployment.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Web.WebPages.dll
+D:\Invest - Copy\InvestmentForms\bin\System.Web.WebPages.Razor.dll
+D:\Invest - Copy\InvestmentForms\bin\WebGrease.dll
+D:\Invest - Copy\InvestmentForms\bin\Dapper.dll
+D:\Invest - Copy\InvestmentForms\bin\netstandard.dll
+D:\Invest - Copy\InvestmentForms\bin\BAL.pdb
+D:\Invest - Copy\InvestmentForms\bin\BAL.dll.config
+D:\Invest - Copy\InvestmentForms\bin\DAL.pdb
+D:\Invest - Copy\InvestmentForms\bin\MODELS.pdb
+D:\Invest - Copy\InvestmentForms\bin\itextsharp.xml
+D:\Invest - Copy\InvestmentForms\bin\System.Web.Helpers.xml
+D:\Invest - Copy\InvestmentForms\bin\System.Web.Mvc.xml
+D:\Invest - Copy\InvestmentForms\bin\System.Web.Optimization.xml
+D:\Invest - Copy\InvestmentForms\bin\System.Web.Razor.xml
+D:\Invest - Copy\InvestmentForms\bin\System.Web.WebPages.xml
+D:\Invest - Copy\InvestmentForms\bin\System.Web.WebPages.Deployment.xml
+D:\Invest - Copy\InvestmentForms\bin\System.Web.WebPages.Razor.xml
+D:\Invest - Copy\InvestmentForms\bin\Newtonsoft.Json.xml
+D:\Invest - Copy\InvestmentForms\bin\Antlr3.Runtime.pdb
+D:\Invest - Copy\InvestmentForms\bin\System.Net.Http.Formatting.xml
+D:\Invest - Copy\InvestmentForms\bin\System.Web.Http.xml
+D:\Invest - Copy\InvestmentForms\bin\System.Web.Http.WebHost.xml
+D:\Invest - Copy\InvestmentForms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Invest - Copy\InvestmentForms\obj\Debug\Collections.csprojAssemblyReference.cache
+D:\Invest - Copy\InvestmentForms\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+D:\Invest - Copy\InvestmentForms\obj\Debug\Collections.csproj.CopyComplete
+D:\Invest - Copy\InvestmentForms\bin\Collections.dll.config
+D:\Invest - Copy\InvestmentForms\bin\Collections.dll
+D:\Invest - Copy\InvestmentForms\bin\Collections.pdb
+D:\Invest - Copy\InvestmentForms\obj\Debug\Collections.dll
+D:\Invest - Copy\InvestmentForms\obj\Debug\Collections.pdb
+D:\Collections\Collections\bin\Collections.dll.config
+D:\Collections\Collections\bin\Collections.dll
+D:\Collections\Collections\bin\Collections.pdb
+D:\Collections\Collections\bin\roslyn\csc.exe
+D:\Collections\Collections\bin\roslyn\csc.exe.config
+D:\Collections\Collections\bin\roslyn\csc.rsp
+D:\Collections\Collections\bin\roslyn\csi.exe
+D:\Collections\Collections\bin\roslyn\csi.exe.config
+D:\Collections\Collections\bin\roslyn\csi.rsp
+D:\Collections\Collections\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Collections\Collections\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Collections\Collections\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Collections\Collections\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Collections\Collections\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Collections\Collections\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Collections\Collections\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Collections\Collections\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Collections\Collections\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Collections\Collections\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Collections\Collections\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Collections\Collections\bin\roslyn\System.AppContext.dll
+D:\Collections\Collections\bin\roslyn\System.Collections.Immutable.dll
+D:\Collections\Collections\bin\roslyn\System.Console.dll
+D:\Collections\Collections\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Collections\Collections\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Collections\Collections\bin\roslyn\System.IO.Compression.dll
+D:\Collections\Collections\bin\roslyn\System.IO.FileSystem.dll
+D:\Collections\Collections\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Collections\Collections\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Collections\Collections\bin\roslyn\System.IO.Pipes.dll
+D:\Collections\Collections\bin\roslyn\System.Reflection.Metadata.dll
+D:\Collections\Collections\bin\roslyn\System.Security.AccessControl.dll
+D:\Collections\Collections\bin\roslyn\System.Security.Claims.dll
+D:\Collections\Collections\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Collections\Collections\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Collections\Collections\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Collections\Collections\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Collections\Collections\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Collections\Collections\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Collections\Collections\bin\roslyn\System.ValueTuple.dll
+D:\Collections\Collections\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Collections\Collections\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Collections\Collections\bin\roslyn\System.Xml.XPath.dll
+D:\Collections\Collections\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Collections\Collections\bin\roslyn\vbc.exe
+D:\Collections\Collections\bin\roslyn\vbc.exe.config
+D:\Collections\Collections\bin\roslyn\vbc.rsp
+D:\Collections\Collections\bin\roslyn\VBCSCompiler.exe
+D:\Collections\Collections\bin\roslyn\VBCSCompiler.exe.config
+D:\Collections\Collections\bin\Antlr3.Runtime.dll
+D:\Collections\Collections\bin\BAL.dll
+D:\Collections\Collections\bin\DAL.dll
+D:\Collections\Collections\bin\itextsharp.dll
+D:\Collections\Collections\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Collections\Collections\bin\Microsoft.Web.Infrastructure.dll
+D:\Collections\Collections\bin\MODELS.dll
+D:\Collections\Collections\bin\Newtonsoft.Json.dll
+D:\Collections\Collections\bin\System.Net.Http.dll
+D:\Collections\Collections\bin\System.Net.Http.Formatting.dll
+D:\Collections\Collections\bin\System.Security.Cryptography.Algorithms.dll
+D:\Collections\Collections\bin\System.Security.Cryptography.Encoding.dll
+D:\Collections\Collections\bin\System.Security.Cryptography.Primitives.dll
+D:\Collections\Collections\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Collections\Collections\bin\System.Web.Helpers.dll
+D:\Collections\Collections\bin\System.Web.Http.dll
+D:\Collections\Collections\bin\System.Web.Http.WebHost.dll
+D:\Collections\Collections\bin\System.Web.Mvc.dll
+D:\Collections\Collections\bin\System.Web.Optimization.dll
+D:\Collections\Collections\bin\System.Web.Razor.dll
+D:\Collections\Collections\bin\System.Web.WebPages.Deployment.dll
+D:\Collections\Collections\bin\System.Web.WebPages.dll
+D:\Collections\Collections\bin\System.Web.WebPages.Razor.dll
+D:\Collections\Collections\bin\WebGrease.dll
+D:\Collections\Collections\bin\Dapper.dll
+D:\Collections\Collections\bin\netstandard.dll
+D:\Collections\Collections\bin\BAL.pdb
+D:\Collections\Collections\bin\BAL.dll.config
+D:\Collections\Collections\bin\DAL.pdb
+D:\Collections\Collections\bin\MODELS.pdb
+D:\Collections\Collections\bin\itextsharp.xml
+D:\Collections\Collections\bin\System.Web.Helpers.xml
+D:\Collections\Collections\bin\System.Web.Mvc.xml
+D:\Collections\Collections\bin\System.Web.Optimization.xml
+D:\Collections\Collections\bin\System.Web.Razor.xml
+D:\Collections\Collections\bin\System.Web.WebPages.xml
+D:\Collections\Collections\bin\System.Web.WebPages.Deployment.xml
+D:\Collections\Collections\bin\System.Web.WebPages.Razor.xml
+D:\Collections\Collections\bin\Newtonsoft.Json.xml
+D:\Collections\Collections\bin\Antlr3.Runtime.pdb
+D:\Collections\Collections\bin\System.Net.Http.Formatting.xml
+D:\Collections\Collections\bin\System.Web.Http.xml
+D:\Collections\Collections\bin\System.Web.Http.WebHost.xml
+D:\Collections\Collections\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Collections\Collections\obj\Debug\Collections.csprojAssemblyReference.cache
+D:\Collections\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+D:\Collections\Collections\obj\Debug\Collections.csproj.CopyComplete
+D:\Collections\Collections\obj\Debug\Collections.dll
+D:\Collections\Collections\obj\Debug\Collections.pdb
+D:\cp-360\collection\Collections\Collections\bin\Collections.dll.config
+D:\cp-360\collection\Collections\Collections\bin\Collections.dll
+D:\cp-360\collection\Collections\Collections\bin\Collections.pdb
+D:\cp-360\collection\Collections\Collections\bin\roslyn\csc.exe
+D:\cp-360\collection\Collections\Collections\bin\roslyn\csc.exe.config
+D:\cp-360\collection\Collections\Collections\bin\roslyn\csc.rsp
+D:\cp-360\collection\Collections\Collections\bin\roslyn\csi.exe
+D:\cp-360\collection\Collections\Collections\bin\roslyn\csi.exe.config
+D:\cp-360\collection\Collections\Collections\bin\roslyn\csi.rsp
+D:\cp-360\collection\Collections\Collections\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\cp-360\collection\Collections\Collections\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\Microsoft.Managed.Core.targets
+D:\cp-360\collection\Collections\Collections\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.AppContext.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Collections.Immutable.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Console.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.IO.Compression.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.IO.FileSystem.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.IO.Pipes.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Reflection.Metadata.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Security.AccessControl.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Security.Claims.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Security.Principal.Windows.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.ValueTuple.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Xml.XmlDocument.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Xml.XPath.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\cp-360\collection\Collections\Collections\bin\roslyn\vbc.exe
+D:\cp-360\collection\Collections\Collections\bin\roslyn\vbc.exe.config
+D:\cp-360\collection\Collections\Collections\bin\roslyn\vbc.rsp
+D:\cp-360\collection\Collections\Collections\bin\roslyn\VBCSCompiler.exe
+D:\cp-360\collection\Collections\Collections\bin\roslyn\VBCSCompiler.exe.config
+D:\cp-360\collection\Collections\Collections\bin\Antlr3.Runtime.dll
+D:\cp-360\collection\Collections\Collections\bin\BAL.dll
+D:\cp-360\collection\Collections\Collections\bin\DAL.dll
+D:\cp-360\collection\Collections\Collections\bin\itextsharp.dll
+D:\cp-360\collection\Collections\Collections\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\cp-360\collection\Collections\Collections\bin\Microsoft.Web.Infrastructure.dll
+D:\cp-360\collection\Collections\Collections\bin\MODELS.dll
+D:\cp-360\collection\Collections\Collections\bin\Newtonsoft.Json.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Net.Http.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Net.Http.Formatting.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Security.Cryptography.Algorithms.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Security.Cryptography.Encoding.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Security.Cryptography.Primitives.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Security.Cryptography.X509Certificates.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Web.Helpers.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Web.Http.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Web.Http.WebHost.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Web.Mvc.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Web.Optimization.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Web.Razor.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Web.WebPages.Deployment.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Web.WebPages.dll
+D:\cp-360\collection\Collections\Collections\bin\System.Web.WebPages.Razor.dll
+D:\cp-360\collection\Collections\Collections\bin\WebGrease.dll
+D:\cp-360\collection\Collections\Collections\bin\Dapper.dll
+D:\cp-360\collection\Collections\Collections\bin\netstandard.dll
+D:\cp-360\collection\Collections\Collections\bin\BAL.pdb
+D:\cp-360\collection\Collections\Collections\bin\BAL.dll.config
+D:\cp-360\collection\Collections\Collections\bin\DAL.pdb
+D:\cp-360\collection\Collections\Collections\bin\MODELS.pdb
+D:\cp-360\collection\Collections\Collections\bin\itextsharp.xml
+D:\cp-360\collection\Collections\Collections\bin\System.Web.Helpers.xml
+D:\cp-360\collection\Collections\Collections\bin\System.Web.Mvc.xml
+D:\cp-360\collection\Collections\Collections\bin\System.Web.Optimization.xml
+D:\cp-360\collection\Collections\Collections\bin\System.Web.Razor.xml
+D:\cp-360\collection\Collections\Collections\bin\System.Web.WebPages.xml
+D:\cp-360\collection\Collections\Collections\bin\System.Web.WebPages.Deployment.xml
+D:\cp-360\collection\Collections\Collections\bin\System.Web.WebPages.Razor.xml
+D:\cp-360\collection\Collections\Collections\bin\Newtonsoft.Json.xml
+D:\cp-360\collection\Collections\Collections\bin\Antlr3.Runtime.pdb
+D:\cp-360\collection\Collections\Collections\bin\System.Net.Http.Formatting.xml
+D:\cp-360\collection\Collections\Collections\bin\System.Web.Http.xml
+D:\cp-360\collection\Collections\Collections\bin\System.Web.Http.WebHost.xml
+D:\cp-360\collection\Collections\Collections\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\cp-360\collection\Collections\Collections\obj\Debug\Collections.csprojAssemblyReference.cache
+D:\cp-360\collection\Collections\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+D:\cp-360\collection\Collections\Collections\obj\Debug\Collections.csproj.CopyComplete
+D:\cp-360\collection\Collections\Collections\obj\Debug\Collections.dll
+D:\cp-360\collection\Collections\Collections\obj\Debug\Collections.pdb

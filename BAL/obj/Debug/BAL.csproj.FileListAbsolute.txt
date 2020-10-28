@@ -1,0 +1,126 @@
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_BAL\bin\Debug\AMS_TOD_BAL.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_BAL\bin\Debug\AMS_TOD_BAL.pdb
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_BAL\bin\Debug\AMS_TOD_DAL.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_BAL\bin\Debug\AMS_TOD_MODELS.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_BAL\bin\Debug\Dapper.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_BAL\bin\Debug\netstandard.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_BAL\bin\Debug\AMS_TOD_DAL.pdb
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_BAL\bin\Debug\AMS_TOD_MODELS.pdb
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_BAL\obj\Debug\BAL.csprojAssemblyReference.cache
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_BAL\obj\Debug\BAL.csproj.CopyComplete
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_BAL\obj\Debug\AMS_TOD_BAL.dll
+D:\Sandeep\Practice\AMS_TOD_WEB\AMS_TOD_BAL\obj\Debug\AMS_TOD_BAL.pdb
+D:\Sandeep\Practice\PROJECT_WEB\BAL\bin\Debug\BAL.dll
+D:\Sandeep\Practice\PROJECT_WEB\BAL\bin\Debug\BAL.pdb
+D:\Sandeep\Practice\PROJECT_WEB\BAL\bin\Debug\DAL.dll
+D:\Sandeep\Practice\PROJECT_WEB\BAL\bin\Debug\GENERAL_MODELS.dll
+D:\Sandeep\Practice\PROJECT_WEB\BAL\bin\Debug\Dapper.dll
+D:\Sandeep\Practice\PROJECT_WEB\BAL\bin\Debug\netstandard.dll
+D:\Sandeep\Practice\PROJECT_WEB\BAL\bin\Debug\DAL.pdb
+D:\Sandeep\Practice\PROJECT_WEB\BAL\bin\Debug\GENERAL_MODELS.pdb
+D:\Sandeep\Practice\PROJECT_WEB\BAL\obj\Debug\BAL.csprojAssemblyReference.cache
+D:\Sandeep\Practice\PROJECT_WEB\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
+D:\Sandeep\Practice\PROJECT_WEB\BAL\obj\Debug\BAL.csproj.CopyComplete
+D:\Sandeep\Practice\PROJECT_WEB\BAL\obj\Debug\BAL.dll
+D:\Sandeep\Practice\PROJECT_WEB\BAL\obj\Debug\BAL.pdb
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\bin\Debug\BAL.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\bin\Debug\BAL.pdb
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\bin\Debug\DAL.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\bin\Debug\EPPlus.DLL
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\bin\Debug\Excel.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\bin\Debug\ExcelDataReader.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\bin\Debug\itextsharp.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\bin\Debug\Dapper.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\bin\Debug\netstandard.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\bin\Debug\DAL.pdb
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\obj\Debug\BAL.csprojAssemblyReference.cache
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\obj\Debug\BAL.csproj.CopyComplete
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\obj\Debug\BAL.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\obj\Debug\BAL.pdb
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\bin\Debug\MODELS.dll
+C:\Users\iblfm6942\Downloads\PROJECT_WEB (1)\PROJECT_WEB\BAL\bin\Debug\MODELS.pdb
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\BAL.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\BAL.pdb
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\DAL.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\EPPlus.DLL
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\Excel.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\ExcelDataReader.DataSet.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\ExcelDataReader.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\itextsharp.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\MODELS.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\Dapper.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\netstandard.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\DAL.pdb
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\MODELS.pdb
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\obj\Debug\BAL.csprojAssemblyReference.cache
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\obj\Debug\BAL.csproj.CopyComplete
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\obj\Debug\BAL.dll
+D:\IntranetInvestmentForm\IntranetInvestmentForm\BAL\obj\Debug\BAL.pdb
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\BAL.dll.config
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\BAL.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\BAL.pdb
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\DAL.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\itextsharp.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\MODELS.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\Dapper.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\netstandard.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\DAL.pdb
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\itextsharp.xml
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\bin\Debug\MODELS.pdb
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\obj\Debug\BAL.csproj.CopyComplete
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\obj\Debug\BAL.dll
+F:\Usama\tfs_sharepoint\Sharepoint\.Net Projects\InvestmentForm\IntranetInvestmentForm\BAL\obj\Debug\BAL.pdb
+D:\Invest\BAL\bin\Debug\BAL.dll.config
+D:\Invest\BAL\bin\Debug\BAL.dll
+D:\Invest\BAL\bin\Debug\BAL.pdb
+D:\Invest\BAL\bin\Debug\DAL.dll
+D:\Invest\BAL\bin\Debug\itextsharp.dll
+D:\Invest\BAL\bin\Debug\MODELS.dll
+D:\Invest\BAL\bin\Debug\Dapper.dll
+D:\Invest\BAL\bin\Debug\netstandard.dll
+D:\Invest\BAL\bin\Debug\DAL.pdb
+D:\Invest\BAL\bin\Debug\itextsharp.xml
+D:\Invest\BAL\bin\Debug\MODELS.pdb
+D:\Invest\BAL\obj\Debug\BAL.csprojAssemblyReference.cache
+D:\Invest\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
+D:\Invest\BAL\obj\Debug\BAL.csproj.CopyComplete
+D:\Invest\BAL\obj\Debug\BAL.dll
+D:\Invest\BAL\obj\Debug\BAL.pdb
+D:\Invest - Copy\BAL\bin\Debug\BAL.dll.config
+D:\Invest - Copy\BAL\bin\Debug\BAL.dll
+D:\Invest - Copy\BAL\bin\Debug\BAL.pdb
+D:\Invest - Copy\BAL\bin\Debug\DAL.dll
+D:\Invest - Copy\BAL\bin\Debug\itextsharp.dll
+D:\Invest - Copy\BAL\bin\Debug\MODELS.dll
+D:\Invest - Copy\BAL\bin\Debug\Dapper.dll
+D:\Invest - Copy\BAL\bin\Debug\netstandard.dll
+D:\Invest - Copy\BAL\bin\Debug\DAL.pdb
+D:\Invest - Copy\BAL\bin\Debug\itextsharp.xml
+D:\Invest - Copy\BAL\bin\Debug\MODELS.pdb
+D:\Invest - Copy\BAL\obj\Debug\BAL.csprojAssemblyReference.cache
+D:\Invest - Copy\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
+D:\Invest - Copy\BAL\obj\Debug\BAL.csproj.CopyComplete
+D:\Invest - Copy\BAL\obj\Debug\BAL.dll
+D:\Invest - Copy\BAL\obj\Debug\BAL.pdb
+D:\Collections\BAL\bin\Debug\BAL.dll.config
+D:\Collections\BAL\bin\Debug\BAL.dll
+D:\Collections\BAL\bin\Debug\BAL.pdb
+D:\Collections\BAL\bin\Debug\DAL.dll
+D:\Collections\BAL\bin\Debug\itextsharp.dll
+D:\Collections\BAL\bin\Debug\MODELS.dll
+D:\Collections\BAL\bin\Debug\Dapper.dll
+D:\Collections\BAL\bin\Debug\netstandard.dll
+D:\Collections\BAL\bin\Debug\DAL.pdb
+D:\Collections\BAL\bin\Debug\itextsharp.xml
+D:\Collections\BAL\bin\Debug\MODELS.pdb
+D:\Collections\BAL\obj\Debug\BAL.csprojAssemblyReference.cache
+D:\Collections\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
+D:\Collections\BAL\obj\Debug\BAL.csproj.CopyComplete
+D:\Collections\BAL\obj\Debug\BAL.dll
+D:\Collections\BAL\obj\Debug\BAL.pdb

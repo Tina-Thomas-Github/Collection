@@ -1,0 +1,221 @@
+﻿@{
+    ViewBag.Title = "";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section id="edit_campaign" class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Edit Customer</h1>
+            </div>
+            <div class="col-md-6 text-right">
+                <div class="button">
+                    <input onclick="enable_disable()" type="button" class="slide-toggle" value="Edit" id="myButton1"></input>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fields_section" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group mb-5">
+                        <label>Email</label>
+                        <input type="email" class="w-100" />
+                    </div>
+                    <form class="form-inline row">
+                        <div class="form-group col-md-6 mb-5">
+                            <label class="mb-2">Phone Number</label>
+                            <input type="tel" class="w-100" />
+                        </div>
+                        <div class="form-group col-md-6 mb-5">
+                            <label class="mb-2">Mobile Number</label>
+                            <input type="tel" class="w-100" />
+                        </div>
+                        <div class="form-group col-md-6 mb-5">
+                            <label class="mb-2">Language</label>
+                            <input type="tel" class="w-100" />
+                        </div>
+                        <div class="form-group col-md-6 mb-5">
+                            <label class="mb-2">Exit Type</label>
+                            <input type="tel" class="w-100" />
+                        </div>
+                        <div class="form-group col-md-6 mb-5 strt_date">
+                            <label class="mb-2">Campaign Date</label>
+                            <input type="date" class="w-100" />
+                        </div>
+                        <div class="form-group col-md-6 mb-5 strt_date">
+                            <label class="mb-2">Assign Date</label>
+                            <input type="date" class="w-100" />
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Address (Residential)</label>
+                        <input type="email" class="w-100" />
+                    </div>
+                    <form class="form-inline row">
+                        <div class="form-group col-md-4 mb-3">
+                            <input type="tel" class="w-100" placeholder="City" />
+                        </div>
+                        <div class="form-group col-md-4 mb-3">
+                            <input type="tel" class="w-100" placeholder="State" />
+                        </div>
+                        <div class="form-group col-md-4 mb-3">
+                            <input type="tel" class="w-100" placeholder="Postal Code" />
+                        </div>
+                    </form>
+                    <div class="form-group mt-4">
+                        <label>Address (Postal)</label>
+                        <input type="email" class="w-100" />
+                    </div>
+                    <form class="form-inline row">
+                        <div class="form-group col-md-4 mb-4">
+                            <input type="tel" class="w-100" placeholder="City" />
+                        </div>
+                        <div class="form-group col-md-4 mb-4">
+                            <input type="tel" class="w-100" placeholder="State" />
+                        </div>
+                        <div class="form-group col-md-4 mb-4">
+                            <input type="tel" class="w-100" placeholder="Postal Code" />
+                        </div>
+                    </form>
+                    <form class="form-inline row mt-4">
+                        <div class="form-group col-md-4 mb-3">
+                            <label class="mb-2">Total Balance Date</label>
+                            <input type="tel" class="w-100" placeholder="City" />
+                        </div>
+                        <div class="form-group col-md-4 mb-3">
+                            <label class="mb-2">Total Past Due</label>
+                            <input type="tel" class="w-100" placeholder="State" />
+                        </div>
+                        <div class="form-group col-md-4 mb-3">
+                            <label class="mb-2">Revised Due</label>
+                            <input type="tel" class="w-100" placeholder="Postal Code" />
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-12 mt-4">
+                    <form class="form-inline row">
+                        <div class="form-group col-md-2 mb-3">
+                            <label class="mb-2">0-15 Days</label>
+                            <input type="text" class="w-100" />
+                        </div>
+                        <div class="form-group col-md-2 mb-3">
+                            <label class="mb-2">16-30 Days</label>
+                            <input type="text" class="w-100" />
+                        </div>
+                        <div class="form-group col-md-2 mb-3">
+                            <label class="mb-2">31-60 Days</label>
+                            <input type="text" class="w-100" />
+                        </div>
+                        <div class="form-group col-md-2 mb-3">
+                            <label class="mb-2">61-90 Days</label>
+                            <input type="text" class="w-100" />
+                        </div>
+                        <div class="form-group col-md-2 mb-3">
+                            <label class="mb-2">91-120 Days</label>
+                            <input type="text" class="w-100" />
+                        </div>
+                        <div class="form-group col-md-2 mb-3">
+                            <label class="mb-2">Over 190 Days</label>
+                            <input type="text" class="w-100" />
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-12 mt-4">
+                    <label>Payment history</label>
+                    <table class="table table-hover table-responsive table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">Activity</th>
+                                <th scope="col">Call Type</th>
+                                <th scope="col">Agent</th>
+                                <th scope="col">Data Entered</th>
+                                <th scope="col">Payment Date</th>
+                                <th scope="col">Payment Type</th>
+                                <th scope="col">Payment Amount</th>
+                                <th scope="col">Dispute Reason</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Ottsdsdso</td>
+                                <td>1212</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>1212</td>
+                                <td>1212</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>1212</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>1212</td>
+                                <td>1212</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>1212</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>1212</td>
+                                <td>1212</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@Scripts.Render("~/bundles/Scripts")
+<script src="~/CustomScripts/Client/NCDDownload.js"></script>
+<style>
+    div.dt-buttons {
+        float: left;
+        margin-left: 50px;
+    }
+
+    .exportExcel {
+        padding: 5px;
+        border: 1px solid black;
+        margin: 5px;
+        cursor: pointer;
+    }
+    /*.blue {
+        color: #4e73df;
+        text-decoration: none;
+        background-color: transparent;
+    }*/
+    .thead {
+        background-color: grey;
+        color: #fff;
+    }
+</style>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#fields_section :input").prop("disabled", true);
+        $(".slide-toggle").click(function () {
+            if (this.value == "Edit") {
+                this.value = "View";
+                $("#fields_section :input").prop("disabled", false);
+            }
+            else {
+                this.value = "Edit";
+                $("#fields_section :input").prop("disabled", true);
+            }
+        });
+    });
+</script> 

@@ -1,0 +1,113 @@
+﻿@using MODELS
+<link href="~/Content/css/sb-admin-2.min.css" rel="stylesheet" />
+<style>
+    .hide {
+        display: none !important;
+    }
+    .toggled li a span {
+        visibility: hidden;
+    }
+</style>
+<ul class="sidebar navbar-nav toggled">
+            <li class="hide_show">
+                <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+                </button>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/Home/Index">
+                    <img src="~/Images/filter_icon.svg" />
+                </a>
+            </li>
+            <div id="accordion" class="acc_menu">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                                <img src="~/Images/date_icon.svg" /> <span>Date</span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <ul class="date_acc">
+                                <li>
+                                    <a href="#!">Today <i class="fas fa-caret-right fa-fw"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#!">Yesterday <i class="fas fa-caret-right fa-fw"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#!">This Weak <i class="fas fa-caret-right fa-fw"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#!">This Month <i class="fas fa-caret-right fa-fw"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#!">This Year <i class="fas fa-caret-right fa-fw"></i></a>
+                                </li>
+                                <li>
+                                    <input type="date" placeholder="Select the Date" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <img src="~/Images/vendor_icon.svg" /> <span>Vendor</span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <ul id="vendor_ac" class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <!-- Default checked -->
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="check1" checked>
+                                        <label class="custom-control-label" for="check1">CP360</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <!-- Default checked -->
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="check2">
+                                        <label class="custom-control-label" for="check2">MZM</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <!-- Default checked -->
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="check3" checked>
+                                        <label class="custom-control-label" for="check3">PDM2</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <!-- Default checked -->
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="check4" checked>
+                                        <label class="custom-control-label" for="check4">VAI</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <img src="~/Images/campaign_icon.svg" /><span>Campaign</span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ul>

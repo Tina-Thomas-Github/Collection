@@ -1,0 +1,103 @@
+﻿@{
+    ViewBag.Title = "Create Campaign";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="create_campaign" class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Create Campaign</h1>
+            </div>
+        </div>
+    </div>
+    <div id="fields_section" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label class="control-label">Campaign Name</label>
+                                <input type="text" class="form-control form-control-user" id="txtCampaignName" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group strt_date">
+                                <label class="control-label">Start Date</label>
+                                <input class="form-control form-control-user" id="txtSchemeStartDate" value="" type="date" maxlength="12" placeholder="Scheme Start Date" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group strt_time">
+                                <label class="control-label">Start Time</label>
+                                <input class="form-control form-control-user" id="txtSchemeStartDate" value="" type="time" maxlength="12" placeholder="Scheme Start Date" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label class="control-label">Vendor</label>
+                                <select class="form-control form-control-user" id="dllVendor"></select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label class="control-label strt_upload">Upload</label>
+                                <input class="form-control form-control-user" type="file" name="FileUpload" id="FileUpload" accept=".xlsx" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="modal-footer justify-content-center">
+                                <a href="#" class="btn btn-primary" id="btnSubmit">
+                                    <span class="text">Submit</span>
+                                </a>
+                                <div class="btnn text-center">
+                                    <button type="submit" class="btn btn-primary pull-left">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg_background text-black-50">
+                        <div class="cont py-5 text-center m-auto">
+                            <h2>
+                                Upload the data<br />
+                                in csv format
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@Scripts.Render("~/bundles/Scripts")
+<link rel="stylesheet" href="~/Content/vendor/bootstrap/css/style.css">
+<script src="~/CustomScripts/Campaign/Create.js"></script>
+<style>
+    div.dt-buttons {
+        float: left;
+        margin-left: 50px;
+    }
+
+    .exportExcel {
+        padding: 5px;
+        border: 1px solid black;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    .thead {
+        background-color: grey;
+        color: #fff;
+    }
+</style>.
