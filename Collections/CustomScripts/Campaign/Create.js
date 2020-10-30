@@ -32,43 +32,39 @@ function Binddropdown() {
     });
 }
 function AddCampaign() {
-    if (validateField(true)) {
-        var chkflag = false;
-        if ($('#chkstatus').is(":checked")) {
-            var chkflag = true;
-        }
+    //if (validateField(true)) {
+    //    var chkflag = false;
+    //    if ($('#chkstatus').is(":checked")) {
+    //        var chkflag = true;
+    //    }
 
-        SchemeFormModel = {
-            SchemeFormID: $("#hdnschemeformid").val(),
-            SchemeCategory: $("#txtSchemeCategory").val(),
-            SchemeFormName: $("#txtSchemeFormName").val(),
-            InvestmentTypeID: $("#ddlInvestmentType option:selected").val(),
-            IsActive: chkflag,
-            Operation: "add"
-        };
+    //    SchemeFormModel = {
+    //        SchemeFormID: $("#hdnschemeformid").val(),
+    //        SchemeCategory: $("#txtSchemeCategory").val(),
+    //        SchemeFormName: $("#txtSchemeFormName").val(),
+    //        InvestmentTypeID: $("#ddlInvestmentType option:selected").val(),
+    //        IsActive: chkflag,
+    //        Operation: "add"
+    //    };
         $.ajax({
-            url: "/Master/CRUD_Campaign",
+            url: "/Campaign/CRUD_Campaign",
             type: "POST",
             contentType: "application/json;charset=utf-8",
             dataType: "json",
-            data: JSON.stringify(SchemeFormModel),
+            data: JSON.stringify(Campaign),
             success: function (response) {
                 //$(".loader").fadeOut("slow");
-                if (response[0].Message.toLowerCase() == "scheme already exists") {
-                    bootbox.alert(response[0].Message);
-                    return false;
-                }
-                else {
-                    bootbox.alert({
-                        message: response[0].Message,
-                        callback: function () {
-                            ClearFields();
-                            BindData();
-                            $('#SchemeFormMaster').modal('hide');
-                        }
-                    });
+                //if (response[0].Message.toLowerCase() == "scheme already exists") {
+                //    bootbox.alert(response[0].Message);
+                //    return false;
+                //}
+                //else {
+                    bootbox.alert("Campaign Data Uploaded successfully");
+                    window.location.href = "/Campaign/ViewCampaign";
                     return true;
-                }
+                    //}
+                    
+                //}
             },
             error: function (response) {
                 $(".loader").fadeOut("slow");
@@ -79,7 +75,7 @@ function AddCampaign() {
                 window.location.href = "/Account/Login";
             }
         });
-    }
+    //}
 }
 function ClearFields() {
     window.location.href = "/Campaign/Create";

@@ -10,8 +10,11 @@
             <div class="col-md-6 text-right">
                 <div class="button">
                     <button type="button" class="btn btn-default btn-sm btn-split" style="border: 1px solid;" data-toggle="modal"
-                            data-target=".bd-example-modal-lg" id="myButton1"> Share
+                            data-target=".bd-example-modal-lg" id="myButton1">
+                        Share
                     </button>
+                        <input type="hidden" name="GridHtml" />
+                       <button id="btnSubmit" class="btn btn-primary"><i class="fa fa-envelope"></i>&nbsp; Sent to Mail</button>
                 </div>
             </div>
         </div>
@@ -19,7 +22,7 @@
             <div class="container">
                 <div class="row">
                     <div class="table-responsive table-sm">
-                        <table id="" class="table table-bordered table-sm" style="width: 100%" cellspacing="0">
+                        <table id="table_id" class="table table-bordered table-sm" style="width: 100%" cellspacing="0">
                             <thead class="thead">
                                 <tr>
                                     <th>id</th>
@@ -161,7 +164,7 @@
 
 @Scripts.Render("~/bundles/Scripts")
 <link rel="stylesheet" href="~/Content/vendor/bootstrap/css/style.css">
-<script src="~/CustomScripts/Campaign/Create.js"></script>
+<script src="~/CustomScripts/DataWarehouse/Create.js"></script>
 <style>
     div.dt-buttons {
         float: left;
@@ -180,12 +183,3 @@
         color: #fff;
     }
 </style>
-<script>
-    function mail_content() {
-        var tableContent = document.getElementById("cartcontent").innerHTML;
-        var mBody = "<html><body><table>" + tableContent + "</table></body></html>";
-        alert(mBody);
-        $.post('mail.php', { content: tablecontent }, function (data) {
-        });
-    }
-</script>

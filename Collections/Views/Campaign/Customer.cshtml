@@ -127,25 +127,3 @@
         color: #fff;
     }
 </style>
-<script type="text/javascript">
-    $(function () {
-        $("#btnSubmit").click(function () {
-             url = '@Url.Action("Export", "Campaign")';
-                $.ajax({
-                    type: "post",
-                    url: url,
-                    data: JSON.stringify({ 'GridHtml': $("#table_id").html() }),
-                    contentType: "application/json; charset=utf-8",
-                    dataType: "json",
-                    success: function (data) {
-                        if (data) {
-                            setTimeout(function () {
-                                swal({ title: "Success", text: "Data Shared Succesfully.", type: "success",confirmButtonText: "OK" });
-                            }, 500);
-                        } else {
-                            swal({ title: "Failed", text: "Something went wrong", type: "error",  confirmButtonText: "OK" });
-                        }
-                    }
-                });
-        });
-    });
