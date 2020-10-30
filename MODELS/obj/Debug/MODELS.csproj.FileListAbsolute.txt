@@ -28,4 +28,3 @@ D:\Collections\MODELS\bin\Debug\MODELS.pdb
 D:\Collections\MODELS\obj\Debug\MODELS.csproj.CoreCompileInputs.cache
 D:\Collections\MODELS\obj\Debug\MODELS.dll
 D:\Collections\MODELS\obj\Debug\MODELS.pdb
-D:\Collections\MODELS\obj\Debug\MODELS.csprojAssemblyReference.cache

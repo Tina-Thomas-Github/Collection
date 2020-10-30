@@ -13,6 +13,13 @@
                     @*Blank Div*@
                 </div>
             </div>
+            <div class="col-md-6 text-left">
+                @using (Html.BeginForm("Export", "Home", FormMethod.Post))
+                {
+                    <input type="hidden" name="GridHtml" />
+                    <button id="btnSubmit" class="btn btn-primary"><i class="fa fa-envelope"></i>&nbsp; Sent to Mail</button>
+                }
+            </div>
         </div>
     </div>
     <div id="fields_section" class="py-3">
@@ -120,3 +127,25 @@
         color: #fff;
     }
 </style>
+<script type="text/javascript">
+    $(function () {
+        $("#btnSubmit").click(function () {
+             url = '@Url.Action("Export", "Campaign")';
+                $.ajax({
+                    type: "post",
+                    url: url,
+                    data: JSON.stringify({ 'GridHtml': $("#table_id").html() }),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+                        if (data) {
+                            setTimeout(function () {
+                                swal({ title: "Success", text: "Data Shared Succesfully.", type: "success",confirmButtonText: "OK" });
+                            }, 500);
+                        } else {
+                            swal({ title: "Failed", text: "Something went wrong", type: "error",  confirmButtonText: "OK" });
+                        }
+                    }
+                });
+        });
+    });

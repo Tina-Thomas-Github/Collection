@@ -1,0 +1,568 @@
+﻿@{
+    ViewBag.Title = "DashboardUser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Content/canvasjs.min.js"></script>
+<link href="~/Content/css/slick.css" rel="stylesheet" />
+<script>
+    window.onload = function () {
+        var chart1 = new CanvasJS.Chart("chartContainer1",
+            {
+                type: "column",
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+
+                width: 420,
+                data: [
+                    {
+                        cursor: "pointer",
+                        type: "column",
+                        indexLabel: "{y}",
+                        indexLabelPlacement: "inside",
+                        indexLabelOrientation: "vertical",
+                        indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.DashboardCamp1),
+                    }]
+            });
+        chart1.render();
+        var chart2 = new CanvasJS.Chart("chartContainer2",
+            {
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+                width: 420,
+                data: [
+                    {
+                        type: "doughnut",
+                        startAngle: 60,
+                        //innerRadius: 60,
+                        indexLabelFontSize: 17,
+                        indexLabel: "{label} - #percent%",
+                        toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+                        //color: "blue",
+                        cursor: "pointer",
+                        //type: "column",
+                        //indexLabel: "{y}",
+                        //indexLabelPlacement: "inside",
+                        //indexLabelOrientation: "vertical",
+                        //indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.DashboardCamp1),
+                    }]
+            });
+        chart2.render();
+        var chart3 = new CanvasJS.Chart("chartContainer3",
+            {
+                type: "column",
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+
+                width: 420,
+                data: [
+                    {
+                        //color: "blue",
+                        cursor: "pointer",
+                        type: "column",
+                        indexLabel: "{y}",
+                        indexLabelPlacement: "inside",
+                        indexLabelOrientation: "vertical",
+                        indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.DashboardCamp2),
+
+                    }]
+            });
+        chart3.render();
+        var chart4 = new CanvasJS.Chart("chartContainer4",
+            {
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+                width: 420,
+                data: [
+                    {
+                        type: "doughnut",
+                        startAngle: 60,
+                        //innerRadius: 60,
+                        indexLabelFontSize: 17,
+                        indexLabel: "{label} - #percent%",
+                        toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+                        //color: "blue",
+                        cursor: "pointer",
+                        //type: "column",
+                        //indexLabel: "{y}",
+                        //indexLabelPlacement: "inside",
+                        //indexLabelOrientation: "vertical",
+                        //indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.DashboardCamp2),
+                    }]
+            });
+        chart4.render();
+        var chart5 = new CanvasJS.Chart("chartContainer5",
+            {
+                type: "column",
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+
+                width: 420,
+                data: [
+                    {
+                        //color: "blue",
+                        cursor: "pointer",
+                        type: "column",
+                        indexLabel: "{y}",
+                        indexLabelPlacement: "inside",
+                        indexLabelOrientation: "vertical",
+                        indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.DashboardCamp3),
+
+                    }]
+            });
+        chart5.render();
+        var chart6 = new CanvasJS.Chart("chartContainer6",
+            {
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+                width: 420,
+                data: [
+                    {
+                        type: "doughnut",
+                        startAngle: 60,
+                        //innerRadius: 60,
+                        indexLabelFontSize: 17,
+                        indexLabel: "{label} - #percent%",
+                        toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+                        //color: "blue",
+                        cursor: "pointer",
+                        //type: "column",
+                        //indexLabel: "{y}",
+                        //indexLabelPlacement: "inside",
+                        //indexLabelOrientation: "vertical",
+                        //indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.DashboardCamp3),
+                    }]
+            });
+        chart6.render();
+        var chart7 = new CanvasJS.Chart("chartContainer7",
+            {
+                type: "column",
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+
+                width: 420,
+                data: [
+                    {
+                        //color: "blue",
+                        cursor: "pointer",
+                        type: "column",
+                        indexLabel: "{y}",
+                        indexLabelPlacement: "inside",
+                        indexLabelOrientation: "vertical",
+                        indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.DashboardCamp4),
+
+                    }]
+            });
+        chart7.render();
+        var chart8 = new CanvasJS.Chart("chartContainer8",
+            {
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+                width: 420,
+                data: [
+                    {
+                        type: "doughnut",
+                        startAngle: 60,
+                        //innerRadius: 60,
+                        indexLabelFontSize: 17,
+                        indexLabel: "{label} - #percent%",
+                        toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+                        //color: "blue",
+                        cursor: "pointer",
+                        //type: "column",
+                        //indexLabel: "{y}",
+                        //indexLabelPlacement: "inside",
+                        //indexLabelOrientation: "vertical",
+                        //indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.DashboardCamp4),
+                    }]
+            });
+        chart8.render();
+        var chart9 = new CanvasJS.Chart("chartContainer9",
+            {
+                type: "column",
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+
+                width: 420,
+                data: [
+                    {
+                        //color: "blue",
+                        cursor: "pointer",
+                        type: "column",
+                        indexLabel: "{y}",
+                        indexLabelPlacement: "inside",
+                        indexLabelOrientation: "vertical",
+                        indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.DashboardCamp5),
+
+                    }]
+            });
+        chart9.render();
+        var chart10 = new CanvasJS.Chart("chartContainer10",
+            {
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+                width: 420,
+                data: [
+                    {
+                        type: "doughnut",
+                        startAngle: 60,
+                        //innerRadius: 60,
+                        indexLabelFontSize: 17,
+                        indexLabel: "{label} - #percent%",
+                        toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+                        //color: "blue",
+                        cursor: "pointer",
+                        //type: "column",
+                        //indexLabel: "{y}",
+                        //indexLabelPlacement: "inside",
+                        //indexLabelOrientation: "vertical",
+                        //indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.DashboardCamp5),
+                    }]
+            });
+        chart10.render();
+        var chart11 = new CanvasJS.Chart("chartContainer11",
+            {
+                type: "column",
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+
+                width: 420,
+                data: [
+                    {
+                        //color: "blue",
+                        cursor: "pointer",
+                        type: "column",
+                        indexLabel: "{y}",
+                        indexLabelPlacement: "inside",
+                        indexLabelOrientation: "vertical",
+                        indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.DashboardCamp6),
+
+                    }]
+            });
+        chart11.render();
+        var chart12 = new CanvasJS.Chart("chartContainer12",
+            {
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+                width: 420,
+                data: [
+                    {
+                        type: "doughnut",
+                        startAngle: 60,
+                        //innerRadius: 60,
+                        indexLabelFontSize: 17,
+                        indexLabel: "{label} - #percent%",
+                        toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+                        //color: "blue",
+                        cursor: "pointer",
+                        //type: "column",
+                        //indexLabel: "{y}",
+                        //indexLabelPlacement: "inside",
+                        //indexLabelOrientation: "vertical",
+                        //indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.DashboardCamp6),
+                    }]
+            });
+        chart12.render();
+        var VendorChart1 = new CanvasJS.Chart("chartContainer13",
+            {
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+                width: 420,
+                data: [
+                    {
+                        type: "doughnut",
+                        startAngle: 60,
+                        //innerRadius: 60,
+                        indexLabelFontSize: 17,
+                        indexLabel: "{label} - #percent%",
+                        toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+                        //color: "blue",
+                        cursor: "pointer",
+                        //type: "column",
+                        //indexLabel: "{y}",
+                        //indexLabelPlacement: "inside",
+                        //indexLabelOrientation: "vertical",
+                        //indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.loadVendorDashboard1),
+                    }]
+            });
+        VendorChart1.render();
+         var chart11 = new CanvasJS.Chart("chartContainer14",
+            {
+                type: "column",
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+
+                width: 420,
+                data: [
+                    {
+                        //color: "blue",
+                        cursor: "pointer",
+                        type: "column",
+                        indexLabel: "{y}",
+                        indexLabelPlacement: "inside",
+                        indexLabelOrientation: "vertical",
+                        indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.loadVendorDashboard1),
+
+                    }]
+            });
+        chart11.render();
+        var VendorChart2 = new CanvasJS.Chart("chartContainer15",
+            {
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+                width: 420,
+                data: [
+                    {
+                        type: "doughnut",
+                        startAngle: 60,
+                        //innerRadius: 60,
+                        indexLabelFontSize: 17,
+                        indexLabel: "{label} - #percent%",
+                        toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+                        //color: "blue",
+                        cursor: "pointer",
+                        //type: "column",
+                        //indexLabel: "{y}",
+                        //indexLabelPlacement: "inside",
+                        //indexLabelOrientation: "vertical",
+                        //indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.loadVendor1Dashboard),
+                    }]
+            });
+        VendorChart2.render();
+         var chart11 = new CanvasJS.Chart("chartContainer16",
+            {
+                type: "column",
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Total User Data"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+
+                width: 420,
+                data: [
+                    {
+                        //color: "blue",
+                        cursor: "pointer",
+                        type: "column",
+                        indexLabel: "{y}",
+                        indexLabelPlacement: "inside",
+                        indexLabelOrientation: "vertical",
+                        indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.loadVendor1Dashboard),
+
+                    }]
+            });
+        chart11.render();
+        var VendorChart3 = new CanvasJS.Chart("chartContainer17", {
+            animationEnabled: true,
+            theme: "light2",
+            title: {
+                text: "Simple Line Chart"
+            },
+            data: [{
+                type: "line",
+                indexLabelFontSize: 16,
+               dataPoints:  @Html.Raw(ViewBag.loadVendorDashboard1),
+            }]
+        });
+        VendorChart3.render();
+    }
+    $(document).ready(function () {
+        $('.autoplay').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            infinite: true,
+        });
+    });
+</script>
+<script src="~/Content/js/slick.min.js"></script>
+<section id="homepage" class="my-5">
+    <div class="container-fluid">
+        <div class="autoplay">
+            <div id="chartContainer1" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div id="chartContainer2" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div id="chartContainer3" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div id="chartContainer4" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div id="chartContainer5" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div id="chartContainer6" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div id="chartContainer7" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div id="chartContainer8" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div id="chartContainer9" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div id="chartContainer10" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div id="chartContainer11" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div id="chartContainer12" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+        </div>
+        <div class="autoplay">
+            <div>
+                dfbamgfmad
+                <div id="chartContainer13" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+            <div id="chartContainer14" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div id="chartContainer15" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div id="chartContainer16" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div id="chartContainer17" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+        </div>
+    </div>
+</section>
+
+
+
+
+

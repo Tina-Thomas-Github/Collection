@@ -1,85 +1,164 @@
-﻿@{
-    ViewBag.Title = "Create Campaign";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
+﻿@{ ViewBag.Title = "Create Campaign";
+                Layout = "~/Views/Shared/_Layout.cshtml"; }
 
-<section id="create_campaign" class="bg-light py-5">
+<section id="View_warehouse" class="bg-light py-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h1>Create Campaign</h1>
+            <div class="col-md-6">
+                <h1>Data Warehouse</h1>
+            </div>
+            <div class="col-md-6 text-right">
+                <div class="button">
+                    <button type="button" class="btn btn-default btn-sm btn-split" style="border: 1px solid;" data-toggle="modal"
+                            data-target=".bd-example-modal-lg" id="myButton1"> Share
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
-    <div id="fields_section" class="py-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label class="control-label">Campaign Name</label>
-                                <input type="text" class="form-control form-control-user" id="txtCampaignName" placeholder="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group strt_date">
-                                <label class="control-label">Start Date</label>
-                                <input class="form-control form-control-user" id="txtSchemeStartDate" value="" type="date" maxlength="12" placeholder="Scheme Start Date" />
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group strt_time">
-                                <label class="control-label">Start Time</label>
-                                <input class="form-control form-control-user" id="txtSchemeStartDate" value="" type="time" maxlength="12" placeholder="Scheme Start Date" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label class="control-label">Vendor</label>
-                                <select class="form-control form-control-user" id="dllVendor"></select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label class="control-label strt_upload">Upload</label>
-                                <input class="form-control form-control-user" type="file" name="FileUpload" id="FileUpload" accept=".xlsx" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="modal-footer justify-content-center">
-                                <a href="#" class="btn btn-primary" id="btnSubmit">
-                                    <span class="text">Submit</span>
-                                </a>
-                                <div class="btnn text-center">
-                                    <button type="submit" class="btn btn-primary pull-left">Cancel</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="bg_background text-black-50">
-                        <div class="cont py-5 text-center m-auto">
-                            <h2>
-                                Upload the data<br />
-                                in csv format
-                            </h2>
-                        </div>
+        <div id="fields_section" class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="table-responsive table-sm">
+                        <table id="" class="table table-bordered table-sm" style="width: 100%" cellspacing="0">
+                            <thead class="thead">
+                                <tr>
+                                    <th>id</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Date</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1213454</td>
+                                    <td>Oliver</td>
+                                    <td>oliver.j@gmail.com</td>
+                                    <td>07/10/2020</td>
+                                    <td class="action"><a href=""><img src="~/Images/vendors/edit.svg" /></a> <a href=""><img src="~/Images/vendors/delete.svg" /></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>234365</td>
+                                    <td>Harry George</td>
+                                    <td>George.h@gmail.com</td>
+                                    <td>07/10/2020</td>
+                                    <td class="action"><a href=""><img src="~/Images/vendors/edit.svg" /></a> <a href=""><img src="~/Images/vendors/delete.svg" /></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>4556679</td>
+                                    <td>Noah Jack</td>
+                                    <td>Noah.j@gmail.com</td>
+                                    <td>07/10/2020</td>
+                                    <td class="action"><a href=""><img src="~/Images/vendors/edit.svg" /></a> <a href=""><img src="~/Images/vendors/delete.svg" /></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>8646357</td>
+                                    <td>Jacob Leo</td>
+                                    <td>Jacob.l@gmail.com</td>
+                                    <td>07/10/2020</td>
+                                    <td class="action"><a href=""><img src="~/Images/vendors/edit.svg" /></a> <a href=""><img src="~/Images/vendors/delete.svg" /></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>34353456</td>
+                                    <td>Charlie Muhammad</td>
+                                    <td>Charlie.m@gmail.com</td>
+                                    <td>07/10/2020</td>
+                                    <td class="action"><a href=""><img src="~/Images/vendors/edit.svg" /></a> <a href=""><img src="~/Images/vendors/delete.svg" /></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>2548544</td>
+                                    <td>Ava Emily</td>
+                                    <td>Ava.E@gmail.com</td>
+                                    <td>07/10/2020</td>
+                                    <td class="action"><a href=""><img src="~/Images/vendors/edit.svg" /></a> <a href=""><img src="~/Images/vendors/delete.svg" /></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <nav aria-label="...">
+                            <ul class="pagination justify-content-end">
+                                <li class="page-item disabled">
+                                    <span class="page-link">Previous</span>
+                                </li>
+                                <li class="page-item active">
+                                    <span class="page-link">
+                                       1
+                                        <span class="sr-only">(current)</span>
+                                    </span>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<div class="container">
+    <div class="modal fade bd-example-modal-lg" id="VendorForm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content px-3">
+                <div class="modal-header">
+                    <h6 class="modal-title"></h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="collapse show" id="cstm_field">
+                    <div class="container">
+                        <div class="form-group row required">
+                            <div class="col-md-12 pb-4">
+                                <div class="conent">
+                                    <h3>Share Data with people</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                <img src="~/Images/data_warehouse/add.svg" /><input type="email" class="form-control form-control-user" id="txtVendorName" placeholder="Add people email">
+                                </div>
+                            </div>
+                            <div class="col-md-12 pt-4">
+                                <form class="form-inline">
+                                    <div class="form-group mb-2">
+                                        <div class="user">
+                                            <svg width="3.2em" height="3.2em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="#f7f7f7" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="8" cy="8" r="8" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mx-sm-3 mb-2">
+                                        <span>
+                                            <strong>Collection Advantage (you)</strong><br />
+                                            collection_advantage@gmail.com
+                                        </span>
+                                    </div>
+                                    <div class="form-group ml-auto mb-2">
+                                        <span>
+                                           <em>Owner</em>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-end">
+                    <a href="#" class="btn btn-success btn-icon-split btn-sm" id="btnSubmit" style="border: 1px solid;">
+                        Grant Access
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 @Scripts.Render("~/bundles/Scripts")
 <link rel="stylesheet" href="~/Content/vendor/bootstrap/css/style.css">
 <script src="~/CustomScripts/Campaign/Create.js"></script>
@@ -100,4 +179,13 @@
         background-color: grey;
         color: #fff;
     }
-</style>.
+</style>
+<script>
+    function mail_content() {
+        var tableContent = document.getElementById("cartcontent").innerHTML;
+        var mBody = "<html><body><table>" + tableContent + "</table></body></html>";
+        alert(mBody);
+        $.post('mail.php', { content: tablecontent }, function (data) {
+        });
+    }
+</script>

@@ -47,12 +47,14 @@
     <Compile Include="BindAllDropdownlist.cs" />
     <Compile Include="Constant.cs" />
     <Compile Include="Campaign.cs" />
+    <Compile Include="Dashboard.cs" />
     <Compile Include="SecurityQuestion.cs" />
     <Compile Include="SecurityQuestionTemplate.cs" />
     <Compile Include="LoginModel.cs" />
     <Compile Include="ResponseMessageModel.cs" />
     <Compile Include="InvestmentFormModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EmailModel.cs" />
     <Compile Include="Vendor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

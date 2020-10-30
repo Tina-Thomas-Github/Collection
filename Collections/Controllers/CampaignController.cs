@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Mail;
 using System.Text;
 using System.Web;
 using System.Web.Mvc;
@@ -11,6 +14,7 @@ using iTextSharp.text.html.simpleparser;
 using iTextSharp.text.pdf;
 using iTextSharp.tool.xml;
 using MODELS;
+using Newtonsoft.Json;
 
 namespace Collections.Controllers
 {
@@ -86,64 +90,72 @@ namespace Collections.Controllers
             }
             return Json(_objbindDropdown, JsonRequestBehavior.AllowGet);
         }
+        [HttpPost]
+        [ValidateInput(false)]
+        public JsonResult Export(string GridHtml)
+        {
+            List<EmailModel> people = new List<EmailModel>();
+            string jsonResult;
+            using (StreamReader streamReader = new StreamReader(Server.MapPath("~/data/people.json")))
+            {
+                jsonResult = streamReader.ReadToEnd();
+            }
+            people = JsonConvert.DeserializeObject<List<EmailModel>>(jsonResult);
 
-        //[HttpPost]
-        //public ActionResult CheckEUINExists(string EUINNo)
-        //{
-        //    string filePath = string.Empty;
-        //    try
-        //    {
-        //        filePath = _objICampaignBusiness.BindAllDropdownlists("1", "iblfm6942", "117");
-        //        if (!string.IsNullOrEmpty(Request["btnSubmit"]))
-        //        {
-        //            string[] filename = filePath.Split('/');
-        //            //ExportToPDF(filePath.Split('//'), Response);
-        //        }
-        //    }
-        //    catch (Exception ex) { }
-        //    return View();
-        //}
-        //public void ExportToPDF(string FileName, HttpResponseBase Response)
-        //{
-        //    using (MemoryStream ms = new MemoryStream())
-        //    {
-        //        byte[] bytearray = ms.ToArray();
-        //        Response.Clear();
-        //        Response.Buffer = true;
-        //        Response.ClearContent();
-        //        Response.ClearHeaders();
-        //        Response.Charset = "";
-        //        Response.Cache.SetCacheability(HttpCacheability.NoCache);
-        //        Response.ContentType = "application/pdf";
-        //        Response.AddHeader("Content-Length", bytearray.Length.ToString());
-        //        Response.AddHeader("Content-Disposition", "attachment;filename=" + FileName.ToString());
-        //        Response.WriteFile(FileName);
-        //        Response.Flush();
-        //        Response.End();
-        //        //if (System.IO.File.Exists(FileName))
-        //          //  System.IO.File.Delete(FileName);
-        //    }
-        //}
-        //public FileResult Export(string GridHtml)
-        //{
-        //    try
-        //    {
-        //        using (MemoryStream stream = new System.IO.MemoryStream())
-        //        {
-        //            string Date = DateTime.Now.ToString("ddMMyyyy");
-        //            string FileName = "AML_" + Date;
-        //            StringReader sr = new StringReader(GridHtml);
-        //            Document pdfDoc = new Document(PageSize.A4_LANDSCAPE, 10f, 10f, 10f, 0f);
-        //            HTMLWorker htmlparser = new HTMLWorker(pdfDoc);//Added                
-        //            PdfWriter writer = PdfWriter.GetInstance(pdfDoc, stream);
-        //            pdfDoc.Open();
-        //            htmlparser.Parse(sr);
-        //            XMLWorkerHelper.GetInstance().ParseXHtml(writer, pdfDoc, sr);
-        //            pdfDoc.Close();
-        //            return File(stream.ToArray(), "application/pdf", FileName + ".pdf");
-        //        }
-        //    }
-        //    catch { return null; }
-        //}
+            bool k = SendEmail(people, GridHtml);
+
+            return new JsonResult { Data = k, JsonRequestBehavior = JsonRequestBehavior.AllowGet };
+        }
+        public static bool SendEmail(List<EmailModel> mailto, string GridHtml)
+        {
+            Boolean isSend = false;
+            String mailfrom = ConfigurationManager.AppSettings["FromMail"].ToString();
+            String uid = ConfigurationManager.AppSettings["UserID"].ToString();
+            String pwd = ConfigurationManager.AppSettings["Password"].ToString();
+            String Sub = ConfigurationManager.AppSettings["Sub"].ToString();
+            String Host = ConfigurationManager.AppSettings["Host"].ToString();
+            String Port = ConfigurationManager.AppSettings["Port"].ToString();
+
+            String mailMessage = GridHtml;
+
+            MailMessage msg = new MailMessage();
+            msg.From = new MailAddress(mailfrom);
+            foreach (var item in mailto)
+            {
+                msg.To.Add(new MailAddress(item.Email));
+            }
+
+            msg.Subject = Sub;
+            msg.Body = mailMessage;
+            msg.IsBodyHtml = true;
+
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = Host;
+            smtp.Port = Convert.ToInt32(Port);
+
+            NetworkCredential networkcred = new NetworkCredential();
+            networkcred.UserName = uid.ToString();
+            networkcred.Password = pwd.ToString();
+            smtp.UseDefaultCredentials = true;
+            smtp.Credentials = networkcred;
+            smtp.EnableSsl = true;
+
+            try
+            {
+                smtp.Send(msg);
+                isSend = true;
+            }
+            catch
+            {
+                isSend = false;
+            }
+            finally
+            {
+                msg = null;
+                smtp = null;
+            }
+
+            return isSend;
+        }
     }
 }

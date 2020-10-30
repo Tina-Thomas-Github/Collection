@@ -292,3 +292,7 @@ D:\cp-360\collection\Collections\Collections\obj\Debug\Collections.csproj.CoreCo
 D:\cp-360\collection\Collections\Collections\obj\Debug\Collections.csproj.CopyComplete
 D:\cp-360\collection\Collections\Collections\obj\Debug\Collections.dll
 D:\cp-360\collection\Collections\Collections\obj\Debug\Collections.pdb
+D:\Collections\Collections\bin\EntityFramework.dll
+D:\Collections\Collections\bin\EntityFramework.SqlServer.dll
+D:\Collections\Collections\bin\EntityFramework.xml
+D:\Collections\Collections\bin\EntityFramework.SqlServer.xml
