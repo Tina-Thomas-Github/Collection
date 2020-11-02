@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "View Campaigns";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section id="view_campaign" class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>View Campaign</h1>
+            </div>
+        </div>
+    </div>
+    <div id="campaign" class="py-3">
+        <div class="container">
+            <div class="row" id="card_id">
+            </div>
+        </div>
+    </div>
+</section>
+<script src="~/CustomScripts/Campaign/ViewCampaign.js"></script>
+<style>
+    div.dt-buttons {
+        float: left;
+        margin-left: 50px;
+    }
+
+    .exportExcel {
+        padding: 5px;
+        border: 1px solid black;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    .thead {
+        background-color: grey;
+        color: #fff;
+    }
+</style>
+<script type="text/javascript">
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>

@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dapper">
+      <HintPath>..\DAL\bin\Debug\Dapper.dll</HintPath>
+    </Reference>
     <Reference Include="EPPlus">
       <HintPath>D:\IntranetInvestmentForms\IntranetInvestmentForms\bin\Debug\EPPlus.DLL</HintPath>
     </Reference>

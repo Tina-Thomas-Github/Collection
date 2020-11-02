@@ -30,10 +30,10 @@ namespace Collections.Controllers
             return View();
         }
 
-        public ActionResult Explore()
-        {
-            return View();
-        }
+        //public ActionResult Explore()
+        //{
+        //    return View();
+        //}
 
         public ActionResult Create()
         {
@@ -52,122 +52,74 @@ namespace Collections.Controllers
 
             return Json(_model, JsonRequestBehavior.AllowGet);
         }
+        
         //[HttpPost]
-        //public ActionResult GeneratePDF(WritePDFDataModel objWritePDFDataModel)
+        //[ValidateInput(false)]
+        //public JsonResult Export(string GridHtml)
         //{
-        //    //_objIWritePDFDataBusiness.GeneratePDF(objWritePDFDataModel.sourceFile, objWritePDFDataModel.newFile, objWritePDFDataModel.writeText, objWritePDFDataModel.id);
-        //    string strPath = "";
+        //    List<EmailModel> people = new List<EmailModel>();
+        //    string jsonResult;
+        //    using (StreamReader streamReader = new StreamReader(Server.MapPath("~/data/people.json")))
+        //    {
+        //        jsonResult = streamReader.ReadToEnd();
+        //    }
+        //    people = JsonConvert.DeserializeObject<List<EmailModel>>(jsonResult);
+
+        //    bool k = SendEmail(people, GridHtml);
+
+        //    return new JsonResult { Data = k, JsonRequestBehavior = JsonRequestBehavior.AllowGet };
+        //}
+        //public static bool SendEmail(List<EmailModel> mailto, string GridHtml)
+        //{
+        //    Boolean isSend = false;
+        //    String mailfrom = ConfigurationManager.AppSettings["FromMail"].ToString();
+        //    String uid = ConfigurationManager.AppSettings["UserID"].ToString();
+        //    String pwd = ConfigurationManager.AppSettings["Password"].ToString();
+        //    String Sub = ConfigurationManager.AppSettings["Sub"].ToString();
+        //    String Host = ConfigurationManager.AppSettings["Host"].ToString();
+        //    String Port = ConfigurationManager.AppSettings["Port"].ToString();
+
+        //    String mailMessage = GridHtml;
+
+        //    MailMessage msg = new MailMessage();
+        //    msg.From = new MailAddress(mailfrom);
+        //    foreach (var item in mailto)
+        //    {
+        //        msg.To.Add(new MailAddress(item.Email));
+        //    }
+
+        //    msg.Subject = Sub;
+        //    msg.Body = mailMessage;
+        //    msg.IsBodyHtml = true;
+
+        //    SmtpClient smtp = new SmtpClient();
+        //    smtp.Host = Host;
+        //    smtp.Port = Convert.ToInt32(Port);
+
+        //    NetworkCredential networkcred = new NetworkCredential();
+        //    networkcred.UserName = uid.ToString();
+        //    networkcred.Password = pwd.ToString();
+        //    smtp.UseDefaultCredentials = true;
+        //    smtp.Credentials = networkcred;
+        //    smtp.EnableSsl = true;
+
         //    try
         //    {
-        //        strPath = _objIWritePDFDataBusiness.GeneratePDF(objWritePDFDataModel.id);
-
-        //        //Response.Clear();
-        //        //Response.ClearContent();
-        //        //Response.ClearHeaders();
-        //        //Response.ContentType = "application/pdf";
-        //        //Response.AddHeader("Content-Disposition", "attachment;filename=" + Path.GetFileName(strPath).ToString());
-        //        //Response.WriteFile(strPath);
-        //        //Response.Flush();
-        //        //return strPath;
-        //        //ApplicationInstance.CompleteRequest();
-        //        //GetReport(strPath);
-        //        //var v1 = DownloadFile(strPath);
+        //        smtp.Send(msg);
+        //        isSend = true;
         //    }
-        //    catch (Exception ex)
+        //    catch
         //    {
+        //        isSend = false;
         //    }
-        //    return Json(new { FileName = strPath });
-
-        //}
-
-        //[AllowAnonymous]
-        //[HttpGet]
-        //public async Task<FileResult> DownloadFile(string FileName)
-        //{
-        //    string Filepath = ConfigurationManager.AppSettings["DestinationFolderFilePath"];
-        //    var path = ConfigurationManager.AppSettings["DestinationFolderFilePath"];
-        //    var Filespath = path + FileName;
-        //    var memory = new MemoryStream();
-        //    try
+        //    finally
         //    {
-        //        using (var stream = new FileStream(Filespath, FileMode.Open))
-        //        {
-        //            await stream.CopyToAsync(memory);
-        //        }
+        //        msg = null;
+        //        smtp = null;
         //    }
-        //    catch (Exception ex)
-        //    { }
-        //    memory.Position = 0;
-        //    return File(memory, path, Path.GetFileName(Filespath));
+
+        //    return isSend;
         //}
-
-        [HttpPost]
-        [ValidateInput(false)]
-        public JsonResult Export(string GridHtml)
-        {
-            List<EmailModel> people = new List<EmailModel>();
-            string jsonResult;
-            using (StreamReader streamReader = new StreamReader(Server.MapPath("~/data/people.json")))
-            {
-                jsonResult = streamReader.ReadToEnd();
-            }
-            people = JsonConvert.DeserializeObject<List<EmailModel>>(jsonResult);
-
-            bool k = SendEmail(people, GridHtml);
-
-            return new JsonResult { Data = k, JsonRequestBehavior = JsonRequestBehavior.AllowGet };
-        }
-        public static bool SendEmail(List<EmailModel> mailto, string GridHtml)
-        {
-            Boolean isSend = false;
-            String mailfrom = ConfigurationManager.AppSettings["FromMail"].ToString();
-            String uid = ConfigurationManager.AppSettings["UserID"].ToString();
-            String pwd = ConfigurationManager.AppSettings["Password"].ToString();
-            String Sub = ConfigurationManager.AppSettings["Sub"].ToString();
-            String Host = ConfigurationManager.AppSettings["Host"].ToString();
-            String Port = ConfigurationManager.AppSettings["Port"].ToString();
-
-            String mailMessage = GridHtml;
-
-            MailMessage msg = new MailMessage();
-            msg.From = new MailAddress(mailfrom);
-            foreach (var item in mailto)
-            {
-                msg.To.Add(new MailAddress(item.Email));
-            }
-
-            msg.Subject = Sub;
-            msg.Body = mailMessage;
-            msg.IsBodyHtml = true;
-
-            SmtpClient smtp = new SmtpClient();
-            smtp.Host = Host;
-            smtp.Port = Convert.ToInt32(Port);
-
-            NetworkCredential networkcred = new NetworkCredential();
-            networkcred.UserName = uid.ToString();
-            networkcred.Password = pwd.ToString();
-            smtp.UseDefaultCredentials = true;
-            smtp.Credentials = networkcred;
-            smtp.EnableSsl = true;
-
-            try
-            {
-                smtp.Send(msg);
-                isSend = true;
-            }
-            catch
-            {
-                isSend = false;
-            }
-            finally
-            {
-                msg = null;
-                smtp = null;
-            }
-
-            return isSend;
-        }
 
     }
 }

@@ -67,6 +67,19 @@ namespace Collections.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public ActionResult Customer(string tablename)
+        {
+            List<MasterData> _model = new List<MasterData>();
+            if (ModelState.IsValid)
+            {
+                _model = _objICampaignBusiness.GetCampaignCustomerDetails(tablename).ToList();
+            }
+            else
+                TempData["ErrorMessage"] = "Some unknown error has occured. Please try again.";
+
+            return Json(_model, JsonRequestBehavior.AllowGet);
+        }
         [HttpGet]
         public JsonResult BindAllDrodownlist(string drpType)
         {

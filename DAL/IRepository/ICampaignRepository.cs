@@ -11,5 +11,6 @@ namespace DAL.IRepository
     {
         List<Campaign> GetCampaignDetails(Campaign model);
         List<Campaign> UploadCampaignDetails(Campaign model);
+        List<MasterData> GetCampaignCustomerDetails(string tablename);
     }
 }

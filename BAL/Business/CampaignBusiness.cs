@@ -46,5 +46,18 @@ namespace BAL.Business
             }
             return _modellist;
         }
+
+        public List<MasterData> GetCampaignCustomerDetails(string tablename) {
+            List<MasterData> _modellist = new List<MasterData>();
+            try
+            {
+                _modellist = _objCampaignRepository.GetCampaignCustomerDetails(tablename).ToList();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return _modellist;
+        }
     }
 }

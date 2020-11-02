@@ -22,21 +22,21 @@ namespace Collections.Controllers
         //    _objDasboardBusiness = objDasboardBusiness;
         //    //_objICampaignBusiness = objICampaignBusiness;
         //}
-        public ActionResult Index()
-        {
-            return View();
-        }
+        //public ActionResult Index()
+        //{
+        //    return View();
+        //}
 
-        public ActionResult Dashboard()
-        {
-            ViewBag.Message = "";
-            return View();
-        }
+        //public ActionResult Dashboard()
+        //{
+        //    ViewBag.Message = "";
+        //    return View();
+        //}
         [HttpGet]
-        public PartialViewResult Filter()
-        {
-            return PartialView("Filter");
-        }
+        //public PartialViewResult Filter()
+        //{
+        //    return PartialView("Filter");
+        //}
 
         public ActionResult DashboardUser()
         {

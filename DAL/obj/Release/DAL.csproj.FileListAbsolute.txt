@@ -1,0 +1,9 @@
+D:\Collections\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+D:\Collections\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\Collections\DAL\bin\Release\DAL.dll
+D:\Collections\DAL\bin\Release\DAL.pdb
+D:\Collections\DAL\bin\Release\MODELS.dll
+D:\Collections\DAL\bin\Release\MODELS.pdb
+D:\Collections\DAL\obj\Release\DAL.csproj.CopyComplete
+D:\Collections\DAL\obj\Release\DAL.dll
+D:\Collections\DAL\obj\Release\DAL.pdb

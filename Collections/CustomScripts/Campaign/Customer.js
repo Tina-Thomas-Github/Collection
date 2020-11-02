@@ -45,8 +45,7 @@ function BindData() {
                     + "</td><td>" + item.CustomerName
                     + "</td><td>" + item.PhoneNo
                     + "</td><td>" + item.RevisedDue
-                    + "</td><td>" + item.ExitTYpe
-                    //+ "</td><td>" + item.ModelStatus
+                    + "</td><td>" + item.ExitType
                     + "</td>"
                     + '<td><a class="btn btn -default btn - split btn- sm" href="/Campaign/Edit" style="border: 1px solid;" ><i class="fa fa - pen"></i> Edit</a>'
                     //| <a class="btn btn -default btn - split btn - sm" href="#" onclick="DeleteData(' + item.Segment_id + ')" style="border: 1px solid; "><i class="fa fa - trash"></i> Delete</a>
@@ -87,51 +86,6 @@ function BindData() {
                 order: [1, 'asc']
             });
 
-            $(document).ready(function () {
-                var groupColumn = 2;
-                var table = $('#example').DataTable({
-                    "columnDefs": [
-                        { "visible": false, "targets": groupColumn }
-                    ],
-                    "order": [[groupColumn, 'asc']],
-                    "displayLength": 25,
-                    "drawCallback": function (settings) {
-                        var api = this.api();
-                        var rows = api.rows({ page: 'current' }).nodes();
-                        var last = null;
-
-                        api.column(groupColumn, { page: 'current' }).data().each(function (group, i) {
-                            if (last !== group) {
-                                $(rows).eq(i).before(
-                                    '<tr class="group"><td colspan="5">' + group + '</td></tr>'
-                                );
-
-                                last = group;
-                            }
-                        });
-                    }
-                });
-
-                // Order by the grouping
-                $('#example tbody').on('click', 'tr.group', function () {
-                    var currentOrder = table.order()[0];
-                    if (currentOrder[0] === groupColumn && currentOrder[1] === 'asc') {
-                        table.order([groupColumn, 'desc']).draw();
-                    }
-                    else {
-                        table.order([groupColumn, 'asc']).draw();
-                    }
-                });
-            });
-
-
-            //table.on('order.dt search.dt', function () {
-            //    table.column(0, { search: 'applied', order: 'applied' }).nodes().each(function (cell, i) {
-            //        cell.innerHTML = i + 1;
-            //    });
-            //}).draw();
-            //$('#table_id th:nth-child(1)').hide();
-            //$('#table_id td:nth-child(1)').hide();
             //$('.buttons-excel').addClass('btn btn-success');
             $("#viewclient").css("display", "block");
         },

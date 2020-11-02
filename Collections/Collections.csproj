@@ -247,6 +247,7 @@
     <Content Include="CustomScripts\Campaign\Create.js" />
     <Content Include="CustomScripts\Campaign\ViewCampaign.js" />
     <Content Include="CustomScripts\DataWarehouse\Create.js" />
+    <Content Include="CustomScripts\Campaign\Customer.js" />
     <Content Include="CustomScripts\Vendor\ViewVendor.js" />
     <Content Include="CSS\dataTables.bootstrap.min.css" />
     <Content Include="CSS\datepicker-1.3.0.css" />
@@ -506,6 +507,7 @@
     <Content Include="Content\vendor\bootstrap\css\bootstrap.css.map" />
     <Content Include="Content\vendor\bootstrap\css\bootstrap.min.css.map" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\IISProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\buttons.flash.min.js" />
     <Content Include="Scripts\buttons.html5.min.js" />
@@ -552,18 +554,6 @@
     <Content Include="CSS\styles.css" />
     <Content Include="CSS\Textboxlable.css" />
     <Content Include="CSS\uploadfile.css" />
-    <Content Include="TestCSS\all.min.css" />
-    <Content Include="TestCSS\bootstrap.bundle.min.js" />
-    <Content Include="TestCSS\bootstrap.min.css" />
-    <Content Include="TestCSS\bootstrap.min.js" />
-    <Content Include="TestCSS\dataTables.bootstrap4.css" />
-    <Content Include="TestCSS\dataTables.bootstrap4.min.js" />
-    <Content Include="TestCSS\jquery-3.3.1.js" />
-    <Content Include="TestCSS\jquery.dataTables.min.js" />
-    <Content Include="TestCSS\jquery.easing.min.js" />
-    <Content Include="TestCSS\jquery.min.js" />
-    <Content Include="TestCSS\sb-admin-2.min.css" />
-    <Content Include="TestCSS\sb-admin-2.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -576,11 +566,9 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Home\Dashboard.cshtml" />
     <Content Include="Views\Vendor\ViewVendor.cshtml" />
     <Content Include="Views\Campaign\ViewCampaign.cshtml" />
     <Content Include="Views\Campaign\Create.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout1.cshtml" />
     <Content Include="Views\Account\Reset.cshtml" />
     <Content Include="Views\Account\Logout.cshtml" />

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Collections-Web.config Connection String" description="Collections Connection String used in web.config by the application to access the database." defaultValue="Data Source=LAPTOP-PSRIRKRS\CP360SQL19;Initial Catalog=Collections;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Collections\\Collections\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Collections']/@connectionString" />
+  </parameter>
+</parameters>

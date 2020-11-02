@@ -19,7 +19,7 @@ namespace BAL.Business
             _objVendorRepository = VendorRepository;
         }
 
-        #region Investment Form Vendor
+        #region
 
         public IEnumerable<BindAllDropdownlist.DropdownMasterDetails> BindAllDropdownlists(string drpType)
         {

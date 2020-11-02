@@ -33,6 +33,5 @@ namespace BAL.Business
             }
             return _modellist;
         }
-
     }
 }

@@ -1,0 +1,5 @@
+D:\Collections\MODELS\bin\Release\MODELS.dll
+D:\Collections\MODELS\bin\Release\MODELS.pdb
+D:\Collections\MODELS\obj\Release\MODELS.csproj.CoreCompileInputs.cache
+D:\Collections\MODELS\obj\Release\MODELS.dll
+D:\Collections\MODELS\obj\Release\MODELS.pdb
