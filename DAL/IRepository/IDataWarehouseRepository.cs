@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace DAL.IRepository
 {
-    public interface ICampaignRepository
+    public interface IDataWarehouseRepository
     {
-        List<Campaign> GetCampaignDetails(Campaign model);
-        List<Campaign> UploadCampaignDetails(Campaign model);
+        List<MasterData> GetMasterDetails(MasterData model);
     }
 }

@@ -28,20 +28,20 @@ namespace Collections.Controllers
         {
             return View();
         }
-        [HttpPost]
-        public ActionResult CRUD_InvestmentFormMaster(InvestmentFormModel model)
-        {
-            List<InvestmentFormModel> _model = new List<InvestmentFormModel>();
-            try
-            {
-                _model = _objIVendorBusiness.CRUD_InvestmentFormVendor(model, "ttina123").ToList();
-            }
-            catch (Exception ex)
-            {
-                ex.Data.Add("SubscriptionName", "IBL");
-            }
-            return Json(_model, JsonRequestBehavior.AllowGet);
-        }
+        //[HttpPost]
+        //public ActionResult CRUD_InvestmentFormMaster(InvestmentFormModel model)
+        //{
+        //    List<InvestmentFormModel> _model = new List<InvestmentFormModel>();
+        //    try
+        //    {
+        //        _model = _objIVendorBusiness.CRUD_InvestmentFormVendor(model, "ttina123").ToList();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        ex.Data.Add("SubscriptionName", "IBL");
+        //    }
+        //    return Json(_model, JsonRequestBehavior.AllowGet);
+        //}
         #endregion
 
         #region Create Vendor

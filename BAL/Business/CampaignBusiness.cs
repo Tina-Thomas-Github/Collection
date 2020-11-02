@@ -33,5 +33,18 @@ namespace BAL.Business
             }
             return _modellist;
         }
+
+        public List<Campaign> UploadCampaignDetails(Campaign model) {
+            List<Campaign> _modellist = new List<Campaign>();
+            try
+            {
+                _modellist = _objCampaignRepository.UploadCampaignDetails(model).ToList();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return _modellist;
+        }
     }
 }

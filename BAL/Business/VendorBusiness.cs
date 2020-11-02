@@ -32,41 +32,41 @@ namespace BAL.Business
             { throw ex; }
             return bindAllDropdownlists;
         }
-        public List<InvestmentFormModel> CRUD_InvestmentFormVendor(InvestmentFormModel model, string UserId)
-        {
-            List<InvestmentFormModel> _modellist = new List<InvestmentFormModel>();
-            try
-            {
-                if (model.Operation.ToLower().Trim() == "edit")
-                {
-                    _modellist = _objVendorRepository.CRUD_InvestmentFormVendor(model, Constants.getbyid, UserId).ToList();
-                }
-                //else if (model.Opertion.ToLower().Trim() == "delete")
-                //{
-                //    _modellist = _objVendorRepository.CRUD_InvestmentFormVendor(model, Constants.delete, UserId).ToList();
-                //}
-                else if (model.Operation.ToLower().Trim() == "list")
-                {
-                    _modellist = _objVendorRepository.CRUD_InvestmentFormVendor(model, Constants.list, UserId).ToList();
-                }
-                else if (model.Operation.ToLower().Trim() == "getall")
-                {
-                    _modellist = _objVendorRepository.CRUD_InvestmentFormVendor(model, Constants.getall, UserId).ToList();
-                }
-                else
-                {
-                    if (model.ID != 0)
-                        _modellist = _objVendorRepository.CRUD_InvestmentFormVendor(model, Constants.update, UserId);
-                    else
-                        _modellist = _objVendorRepository.CRUD_InvestmentFormVendor(model, Constants.add, UserId);
-                }
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-            return _modellist;
-        }
+        //public List<InvestmentFormModel> CRUD_InvestmentFormVendor(InvestmentFormModel model, string UserId)
+        //{
+        //    List<InvestmentFormModel> _modellist = new List<InvestmentFormModel>();
+        //    try
+        //    {
+        //        if (model.Operation.ToLower().Trim() == "edit")
+        //        {
+        //            _modellist = _objVendorRepository.CRUD_InvestmentFormVendor(model, Constants.getbyid, UserId).ToList();
+        //        }
+        //        //else if (model.Opertion.ToLower().Trim() == "delete")
+        //        //{
+        //        //    _modellist = _objVendorRepository.CRUD_InvestmentFormVendor(model, Constants.delete, UserId).ToList();
+        //        //}
+        //        else if (model.Operation.ToLower().Trim() == "list")
+        //        {
+        //            _modellist = _objVendorRepository.CRUD_InvestmentFormVendor(model, Constants.list, UserId).ToList();
+        //        }
+        //        else if (model.Operation.ToLower().Trim() == "getall")
+        //        {
+        //            _modellist = _objVendorRepository.CRUD_InvestmentFormVendor(model, Constants.getall, UserId).ToList();
+        //        }
+        //        else
+        //        {
+        //            if (model.ID != 0)
+        //                _modellist = _objVendorRepository.CRUD_InvestmentFormVendor(model, Constants.update, UserId);
+        //            else
+        //                _modellist = _objVendorRepository.CRUD_InvestmentFormVendor(model, Constants.add, UserId);
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw ex;
+        //    }
+        //    return _modellist;
+        //}
 
         public List<Vendor>CRUD_Vendor(Vendor model)
         {

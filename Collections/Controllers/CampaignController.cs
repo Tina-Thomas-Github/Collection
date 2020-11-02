@@ -43,7 +43,6 @@ namespace Collections.Controllers
             List<Campaign> _model = new List<Campaign>();
             if (ModelState.IsValid)
             {
-                //model.username = Session["UserID"].ToString();
                 _model = _objICampaignBusiness.GetCampaignDetails(model).ToList();
             }
             else
@@ -91,71 +90,45 @@ namespace Collections.Controllers
             return Json(_objbindDropdown, JsonRequestBehavior.AllowGet);
         }
         [HttpPost]
-        [ValidateInput(false)]
-        public JsonResult Export(string GridHtml)
+        public ActionResult Create(Campaign model)
         {
-            List<EmailModel> people = new List<EmailModel>();
-            string jsonResult;
-            using (StreamReader streamReader = new StreamReader(Server.MapPath("~/data/people.json")))
+            List<Campaign> _model = new List<Campaign>();
+            //if (Request.Files.Count > 0)
+            //{
+                //HttpPostedFileBase file1 = Request.Files[0];
+            //}
+            //if (model.FileName != string.Empty && !string.IsNullOrEmpty(model.FileName))
+            if (Request.Files.Count > 0)
             {
-                jsonResult = streamReader.ReadToEnd();
+                string[] fieldNames = Request.Files.AllKeys;
+                //var fileName = Path.GetFileName(model.FileName);
+                //var path = Path.Combine(Server.MapPath("~/Content/Upload"), fileName);
+                //file.SaveAs(path);
+
+                for (int i = 0; i < fieldNames.Length; i++)
+                {
+                    HttpPostedFileBase file = Request.Files[i];
+                    string FName = Request.Files[i].FileName;
+                    //HttpPostedFileBase file = Request.Files[0];
+                    //model.contentType = Request.ContentType;
+                    string folderPath = Server.MapPath("~/UploadFile/");
+                    if (!Directory.Exists(folderPath))
+                    {
+                        Directory.CreateDirectory(folderPath);
+                    }
+                    file.SaveAs(folderPath + Path.GetFileName(FName));
+                    model.FilePath = folderPath + Path.GetFileName(FName);
+                    model.FileName = FName.Substring(0, FName.Length - 4);
+                }
             }
-            people = JsonConvert.DeserializeObject<List<EmailModel>>(jsonResult);
-
-            bool k = SendEmail(people, GridHtml);
-
-            return new JsonResult { Data = k, JsonRequestBehavior = JsonRequestBehavior.AllowGet };
-        }
-        public static bool SendEmail(List<EmailModel> mailto, string GridHtml)
-        {
-            Boolean isSend = false;
-            String mailfrom = ConfigurationManager.AppSettings["FromMail"].ToString();
-            String uid = ConfigurationManager.AppSettings["UserID"].ToString();
-            String pwd = ConfigurationManager.AppSettings["Password"].ToString();
-            String Sub = ConfigurationManager.AppSettings["Sub"].ToString();
-            String Host = ConfigurationManager.AppSettings["Host"].ToString();
-            String Port = ConfigurationManager.AppSettings["Port"].ToString();
-
-            String mailMessage = GridHtml;
-
-            MailMessage msg = new MailMessage();
-            msg.From = new MailAddress(mailfrom);
-            foreach (var item in mailto)
+            if (ModelState.IsValid)
             {
-                msg.To.Add(new MailAddress(item.Email));
+                _model = _objICampaignBusiness.UploadCampaignDetails(model).ToList();
             }
+            else
+                TempData["ErrorMessage"] = "Some unknown error has occured. Please try again.";
 
-            msg.Subject = Sub;
-            msg.Body = mailMessage;
-            msg.IsBodyHtml = true;
-
-            SmtpClient smtp = new SmtpClient();
-            smtp.Host = Host;
-            smtp.Port = Convert.ToInt32(Port);
-
-            NetworkCredential networkcred = new NetworkCredential();
-            networkcred.UserName = uid.ToString();
-            networkcred.Password = pwd.ToString();
-            smtp.UseDefaultCredentials = true;
-            smtp.Credentials = networkcred;
-            smtp.EnableSsl = true;
-
-            try
-            {
-                smtp.Send(msg);
-                isSend = true;
-            }
-            catch
-            {
-                isSend = false;
-            }
-            finally
-            {
-                msg = null;
-                smtp = null;
-            }
-
-            return isSend;
+            return Json(_model, JsonRequestBehavior.AllowGet);
         }
     }
 }

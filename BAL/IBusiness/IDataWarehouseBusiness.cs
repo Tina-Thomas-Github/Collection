@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace BAL.IBusiness
 {
-    public interface ICampaignBusiness
+    public interface IDataWarehouseBusiness
     {
-        List<Campaign> GetCampaignDetails(Campaign model);
-        List<Campaign> UploadCampaignDetails(Campaign model);
+        List<MasterData> GetMasterDetails(MasterData model);
     }
 }

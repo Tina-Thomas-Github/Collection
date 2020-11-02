@@ -27,5 +27,16 @@ namespace DAL.Repository
             }
             return _modellist;
         }
+        public List<Campaign> UploadCampaignDetails(Campaign model)
+        {
+            List<Campaign> _modellist = new List<Campaign>();
+            using (conn = ObjCon.makeConnection())
+            {
+                var objDetails = SqlMapper.QueryMultiple(conn, "sp_uploadCampaign", new {model.CampaignName,model.StartDate,model.StartTime, model.Vendor, model.FilePath,model.FileName } ,commandType: CommandType.StoredProcedure);
+                _modellist = objDetails.Read<Campaign>().ToList();
+            }
+            return _modellist;
+        }
+
     }
 }

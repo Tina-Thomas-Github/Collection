@@ -12,7 +12,7 @@ namespace DAL.IRepository
     {
         #region 
         IEnumerable<BindAllDropdownlist.DropdownMasterDetails> BindAllDropdownlists(string drpType);
-        List<InvestmentFormModel> CRUD_InvestmentFormVendor(InvestmentFormModel model, string status, string UserId);
+        //List<InvestmentFormModel> CRUD_InvestmentFormVendor(InvestmentFormModel model, string status, string UserId);
         List<Vendor>CRUD_Vendor (Vendor model, string status);
         #endregion
     }

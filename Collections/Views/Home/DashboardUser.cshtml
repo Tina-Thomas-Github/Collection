@@ -1,6 +1,6 @@
 ﻿@{
     ViewBag.Title = "DashboardUser";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
 }
 <script src="~/Content/canvasjs.min.js"></script>
 <link href="~/Content/css/slick.css" rel="stylesheet" />
@@ -14,7 +14,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Frontier_Resi_DC_Exit_31_to_60"
                 },
                 legend: {
                     cursor: "pointer",
@@ -34,6 +34,34 @@
                     }]
             });
         chart1.render();
+         var chart1Part = new CanvasJS.Chart("chartContainer1-part",
+            {
+                type: "column",
+                animationEnabled: true,
+                title: {
+                    fontSize: 13,
+                    fontWeight: "bold",
+                    fontFamily: "Verdana, Geneva, sans-serif",
+                    text: "Frontier_Resi_DC_Exit_31_to_60"
+                },
+                legend: {
+                    cursor: "pointer",
+                    fontSize: 15,
+                },
+
+                width: 420,
+                data: [
+                    {
+                        cursor: "pointer",
+                        type: "column",
+                        indexLabel: "{y}",
+                        indexLabelPlacement: "inside",
+                        indexLabelOrientation: "vertical",
+                        indexLabelFontColor: "black",
+                        dataPoints:  @Html.Raw(ViewBag.DashboardCamp1),
+                    }]
+            });
+        chart1Part.render();
         var chart2 = new CanvasJS.Chart("chartContainer2",
             {
                 animationEnabled: true,
@@ -41,7 +69,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Frontier_Resi_DC_Exit_31_to_60"
                 },
                 legend: {
                     cursor: "pointer",
@@ -75,7 +103,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Frontier_Resi_DC_Exit_61_to_90"
                 },
                 legend: {
                     cursor: "pointer",
@@ -104,7 +132,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Frontier_Resi_DC_Exit_61_to_90"
                 },
                 legend: {
                     cursor: "pointer",
@@ -138,7 +166,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Frontier_Resi_DC_Exit_below_30"
                 },
                 legend: {
                     cursor: "pointer",
@@ -167,7 +195,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Frontier_Resi_DC_Exit_below_30"
                 },
                 legend: {
                     cursor: "pointer",
@@ -201,7 +229,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Frontier_Resi_DC_Exit_over_90"
                 },
                 legend: {
                     cursor: "pointer",
@@ -230,7 +258,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Frontier_Resi_DC_Exit_over_90"
                 },
                 legend: {
                     cursor: "pointer",
@@ -264,7 +292,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Frontier_Resi_SO_Exit_31_to_60"
                 },
                 legend: {
                     cursor: "pointer",
@@ -293,7 +321,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Frontier_Resi_SO_Exit_61_to_90"
                 },
                 legend: {
                     cursor: "pointer",
@@ -327,7 +355,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Frontier_Resi_SO_Exit_61_to_90"
                 },
                 legend: {
                     cursor: "pointer",
@@ -356,7 +384,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Frontier_Resi_SO_Exit_61_to_90"
                 },
                 legend: {
                     cursor: "pointer",
@@ -389,7 +417,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Vendor/Customer  Data"
                 },
                 legend: {
                     cursor: "pointer",
@@ -423,7 +451,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Vendor/Customer Data"
                 },
                 legend: {
                     cursor: "pointer",
@@ -452,7 +480,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Vendor-Total Payment Data"
                 },
                 legend: {
                     cursor: "pointer",
@@ -486,7 +514,7 @@
                     fontSize: 13,
                     fontWeight: "bold",
                     fontFamily: "Verdana, Geneva, sans-serif",
-                    text: "Total User Data"
+                    text: "Vendor-Total Payment Data"
                 },
                 legend: {
                     cursor: "pointer",
@@ -528,41 +556,204 @@
             slidesToScroll: 1,
             autoplay: false,
             autoplaySpeed: 2000,
-            infinite: true,
+            infinite: false,
         });
     });
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
 </script>
 <script src="~/Content/js/slick.min.js"></script>
 <section id="homepage" class="my-5">
     <div class="container-fluid">
-        <div class="autoplay">
-            <div id="chartContainer1" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
-            <div id="chartContainer2" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
-            <div id="chartContainer3" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
-            <div id="chartContainer4" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
-            <div id="chartContainer5" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
-            <div id="chartContainer6" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
-            <div id="chartContainer7" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
-            <div id="chartContainer8" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
-            <div id="chartContainer9" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
-            <div id="chartContainer10" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
-            <div id="chartContainer11" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
-            <div id="chartContainer12" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+        <div class="container">
+            <div class="row">
+                <h3 class="csmt_h3">Campaign</h3>
+            </div>
         </div>
         <div class="autoplay">
-            <div>
-                dfbamgfmad
-                <div id="chartContainer13" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div class="cstm_slidr">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">...</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="javascript://" data-toggle="modal" data-target="#exampleModal" style="
+    border-bottom: 1px solid #ccc;
+">Maximize</a>
+                        <a href="javascript://" onclick="changeChart('chartContainer1','chartContainer2')">DoNut Style</a>
+
+                    </div>
+                </div>
+                <div id="chartContainer1" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block showChart"></div>
+                <div id="chartContainer2" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block hideChart"></div>
             </div>
-            <div id="chartContainer14" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
-            <div id="chartContainer15" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
-            <div id="chartContainer16" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
-            <div id="chartContainer17" style="height: 300px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            <div class="cstm_slidr">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">...</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div id="chartContainer3" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+            <div class="cstm_slidr">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">...</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div id="chartContainer4" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+            <div class="cstm_slidr">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">...</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div id="chartContainer5" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+            <div class="cstm_slidr">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">...</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div id="chartContainer6" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+            <div class="cstm_slidr">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">...</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div id="chartContainer7" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+            <div class="cstm_slidr">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">...</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div id="chartContainer8" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+            <div class="cstm_slidr">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">...</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div id="chartContainer9" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+            <div class="cstm_slidr">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">...</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div id="chartContainer10" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+            <div class="cstm_slidr">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">...</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div id="chartContainer11" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+            <div class="cstm_slidr">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">...</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div id="chartContainer12" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h3 class="csmt_h3">Vendor</h3>
+            </div>
+        </div>
+        <div class="autoplay">
+            <div class="cstm_slidr">
+                <div id="chartContainer13" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+            <div class="cstm_slidr">
+                <div id="chartContainer14" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+            <div class="cstm_slidr">
+                <div id="chartContainer15" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+            <div class="cstm_slidr">
+                <div id="chartContainer16" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
+            <div class="cstm_slidr">
+                <div id="chartContainer17" style="height: 230px; margin: 0px auto;" class="img-fluid mx-auto d-block"></div>
+            </div>
         </div>
     </div>
 </section>
-
-
-
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="chartContainer1-part" style="height:400px;width:800px;" class="img-fluid mx-auto d-block"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function changeChart(hideDiv, showDiv) {
+        $("#" + hideDiv).toggleClass("hideChart showChart");
+        $("#" + showDiv).toggleClass("showChart hideChart");
+    }
+</script>
 
 

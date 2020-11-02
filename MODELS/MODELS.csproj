@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BindAllDropdownlist.cs" />
+    <Compile Include="MasterData.cs" />
     <Compile Include="Constant.cs" />
     <Compile Include="Campaign.cs" />
     <Compile Include="Dashboard.cs" />

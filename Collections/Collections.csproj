@@ -201,12 +201,23 @@
     <Content Include="Content\css\slick.css" />
     <Content Include="Content\js\slick.min.js" />
     <Content Include="Content\vendor\fontawesome-free\svgs\regular\arrow-alt-circle-down.svg" />
+    <Content Include="Content\vendor\fontawesome-free\svgs\regular\caret-square-down.svg" />
+    <Content Include="Content\vendor\fontawesome-free\svgs\regular\caret-square-left.svg" />
+    <Content Include="Content\vendor\fontawesome-free\svgs\regular\caret-square-right.svg" />
+    <Content Include="Content\vendor\fontawesome-free\svgs\regular\caret-square-up.svg" />
     <Content Include="Content\vendor\fontawesome-free\svgs\regular\user-circle.svg" />
     <Content Include="Content\vendor\fontawesome-free\svgs\solid\angle-up.svg" />
     <Content Include="Content\vendor\fontawesome-free\svgs\solid\arrow-alt-circle-down.svg" />
     <Content Include="Content\vendor\fontawesome-free\svgs\solid\backward.svg" />
     <Content Include="Content\vendor\fontawesome-free\svgs\solid\bars.svg" />
+    <Content Include="Content\vendor\fontawesome-free\svgs\solid\caret-down.svg" />
+    <Content Include="Content\vendor\fontawesome-free\svgs\solid\caret-left.svg" />
     <Content Include="Content\vendor\fontawesome-free\svgs\solid\caret-right.svg" />
+    <Content Include="Content\vendor\fontawesome-free\svgs\solid\caret-square-down.svg" />
+    <Content Include="Content\vendor\fontawesome-free\svgs\solid\caret-square-left.svg" />
+    <Content Include="Content\vendor\fontawesome-free\svgs\solid\caret-square-right.svg" />
+    <Content Include="Content\vendor\fontawesome-free\svgs\solid\caret-square-up.svg" />
+    <Content Include="Content\vendor\fontawesome-free\svgs\solid\caret-up.svg" />
     <Content Include="Content\vendor\fontawesome-free\svgs\solid\check.svg" />
     <Content Include="Content\vendor\fontawesome-free\svgs\solid\download.svg" />
     <Content Include="Content\vendor\fontawesome-free\svgs\solid\file-download.svg" />
@@ -235,7 +246,7 @@
     <Content Include="CustomScripts\Account\LoginAccount.js" />
     <Content Include="CustomScripts\Campaign\Create.js" />
     <Content Include="CustomScripts\Campaign\ViewCampaign.js" />
-    <Content Include="CustomScripts\Vendor\Create.js" />
+    <Content Include="CustomScripts\DataWarehouse\Create.js" />
     <Content Include="CustomScripts\Vendor\ViewVendor.js" />
     <Content Include="CSS\dataTables.bootstrap.min.css" />
     <Content Include="CSS\datepicker-1.3.0.css" />
@@ -320,9 +331,11 @@
     <Content Include="Images\date_icon.svg" />
     <Content Include="Images\filter_icon.svg" />
     <Content Include="Images\ical.png" />
+    <Content Include="Images\left_arrow.svg" />
     <Content Include="Images\loader.gif" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\create\upload.svg" />
+    <Content Include="Images\right_arrow.svg" />
     <Content Include="Images\vendors\delete.svg" />
     <Content Include="Images\vendors\edit.svg" />
     <Content Include="Images\vendor_icon.svg" />
@@ -539,6 +552,18 @@
     <Content Include="CSS\styles.css" />
     <Content Include="CSS\Textboxlable.css" />
     <Content Include="CSS\uploadfile.css" />
+    <Content Include="TestCSS\all.min.css" />
+    <Content Include="TestCSS\bootstrap.bundle.min.js" />
+    <Content Include="TestCSS\bootstrap.min.css" />
+    <Content Include="TestCSS\bootstrap.min.js" />
+    <Content Include="TestCSS\dataTables.bootstrap4.css" />
+    <Content Include="TestCSS\dataTables.bootstrap4.min.js" />
+    <Content Include="TestCSS\jquery-3.3.1.js" />
+    <Content Include="TestCSS\jquery.dataTables.min.js" />
+    <Content Include="TestCSS\jquery.easing.min.js" />
+    <Content Include="TestCSS\jquery.min.js" />
+    <Content Include="TestCSS\sb-admin-2.min.css" />
+    <Content Include="TestCSS\sb-admin-2.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -552,13 +577,8 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Home\Dashboard.cshtml" />
-    <Content Include="Views\Vendor\Create.cshtml" />
-    <Content Include="Views\Vendor\Delete.cshtml" />
-    <Content Include="Views\Vendor\Edit.cshtml" />
     <Content Include="Views\Vendor\ViewVendor.cshtml" />
     <Content Include="Views\Campaign\ViewCampaign.cshtml" />
-    <Content Include="Views\Campaign\Edit.cshtml" />
-    <Content Include="Views\Campaign\Delete.cshtml" />
     <Content Include="Views\Campaign\Create.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout1.cshtml" />
@@ -570,10 +590,9 @@
     <Content Include="Views\Campaign\Customer.cshtml" />
     <Content Include="Views\Account\NewPassword.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Shared\Filter.cshtml" />
-    <Content Include="Views\DataWarehouse\Explore.cshtml" />
     <Content Include="Views\DataWarehouse\Create.cshtml" />
     <Content Include="Views\Home\DashboardUser.cshtml" />
+    <Content Include="Views\Vendor\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

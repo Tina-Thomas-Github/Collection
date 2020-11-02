@@ -5,7 +5,7 @@ $(document).ready(function () {
     $('#btnSubmit').click(function (e) {
         e.preventDefault();
         e.stopPropagation();
-        AddEUINMapping();
+        AddVendor();
     });
     $('#btnClear').click(function (e) {
         e.preventDefault();
@@ -43,6 +43,23 @@ function BindData() {
             });
 
             var table = $("#table_id").DataTable({
+                dom: "<'row'<'col-md-6'l><'col-md-6'Bf>>" +
+                    "<'row'<'col-md-6'><'col-md-6'>>" +
+                    "<'row'<'col-md-12't>><'row'<'col-md-12'ip>>",
+
+                buttons: [
+                    {
+                        extend: 'excel',
+                        text: 'Export Excel',
+                        className: 'exportExcel',
+                        filename: 'Segment list',
+                        exportOptions: {
+                            modifier: {
+                                page: 'all'
+                            }
+                        }
+                    }
+                ],
                 responsive: {
                     details: {
                         type: 'column',
@@ -51,6 +68,7 @@ function BindData() {
                 },
                 order: [1, 'asc']
             });
+            $('.buttons-excel').addClass('btn btn-default');
             $("#viewclient").css("display", "block");
         },
         error: function (errormessage) {
@@ -59,7 +77,7 @@ function BindData() {
     });
 }
 
-function AddEUINMapping() {
+function AddVendor() {
     if (validateField(true)) {
         var chkflag = false;
         if ($('#chkstatus').is(":checked")) {
@@ -79,18 +97,17 @@ function AddEUINMapping() {
             dataType: "json",
             data: JSON.stringify(Vendor),
             success: function (response) {
-                //$(".loader").fadeOut("slow");
                 if (response[0].Message.toLowerCase() == "Vendor Details already exists") {
                     bootbox.alert(response[0].Message);
                     return false;
                 }
                 else {
+                    $('#VendorForm').modal('hide');
+                    BindData();
                     bootbox.alert({
                         message: response[0].Message,
                         callback: function () {
                             ClearFields();
-                            BindData();
-                            $('#VendorForm').modal('hide');
                         }
                     });
                     return true;
@@ -179,7 +196,6 @@ function Edit(id) {
             $('#chkstatus').attr('checked', chkflag);
             $('#txtVendorName').val(response[0].VendorName);
             $('#txtVendorShortName').val(response[0].VendorShortName);
-
             $('#VendorForm').modal('show');
         },
         error: function (response) {

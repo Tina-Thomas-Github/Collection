@@ -20,57 +20,22 @@ function BindData() {
             $.each(result, function (key, item) {
                 var url = '/home/dashboard';
                 var html = '<div class="col-md-3"><div class="box active"><div class="top_section cardtitle">';
-                html += '<span class="strt_date">' + item.StartDate.slice(0,10);
-                html += '</span>';
-                html += '<span class="time">' + item.StartTime;
-                html += '</span></div>';
+                html += '<span class="strt_date">' + item.StartDate.slice(0,10) + '</span>';
+                //html += '</span>';
+                //html += '<span class="time">' + item.StartTime;
+                html += '<span class="time"><div class="button_vendor">Vendor';
+                html += '<i class="fa fa-users" aria-hidden="true"></i><span class="badge">' + item.VendorCount;
+                html += '</span></div></span></div>';
                 html += '<div class="middle_section"><small data-toggle="tooltip" data-placement="top" title="' + item.CampaignName;
                 html += '">' + item.CampaignName;
                 html += '</small><h3 class="cardheader">' + item.CustomerCount;
-                html += '</h3></div><div class="bottom_section"> <div class="button_vendor">Vendor';
-                html += '<i class="fa fa-users" aria-hidden="true"></i><span class="badge">' + item.VendorCount;
+                html += '</h3></div><div class="bottom_section"><label class="control-label strt_upload">Upload</label>';
+                //html += '<i class="fa fa-users" aria-hidden="true"></i><span class="badge">' + item.VendorCount;
+                html += '<input class="form-control" type="file" id="FileUpload" accept=".xlsx" />';
                 html += '</span></div><div class="detail_button"><a href="/Campaign/Customer">View Details</a>';
                 html += '</div></div></div></div>';   
                 $('#card_id').append(html);
             });
-
-
-
-
-
-
-
-
-            //var html = '<div class="box">';
-            //html += '<div class="top_section cardtitle">';
-            //html += '<div class="middle_sectionuserimg"> </div>';
-            //html += '<div class="col-md-8 px-3">';
-            //html += '<div class="card-block px-3">';
-            //html += '<h4 class="middle_section cardheader"> </h4>';
-            ////html += '<h4 class="card-title cardheader"> </h4>';
-            //html += '<h4 class="bottom_section badge cardsubheader"> </h4>';
-            //html += '</div>';
-            //html += '</div>';
-            //html += '</div>';
-            ////html += '</div>';
-            //html += '</div>';
-
-            //for (var i = 0; i < result.length; i++) {
-            //    $('#card_id').append(html);
-            //    //uimg = result[i].CustomerName;
-            //    var $img = result[i].CampaignName;//uimg;
-            //    $(".userimg:eq(" + i + ")").append($img);
-
-            //    var $cardt = result[i].StartDate;
-            //    $(".cardtitle:eq(" + i + ")").append($cardt);
-
-            //    var $cardheader = result[i].CustomerCount;
-            //    $(".cardheader:eq(" + i + ")").append($cardheader);
-
-            //    var $cardsubheader = result[i].VendorCount;;
-            //    $(".cardsubheader:eq(" + i + ")").append($cardsubheader);
-
-            //}
         }
     });
 }

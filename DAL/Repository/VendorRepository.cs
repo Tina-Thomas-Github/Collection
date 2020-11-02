@@ -18,7 +18,7 @@ namespace DAL.Repository
     {
         SqlConnection conn;
         dbConnection ObjCon = dbConnection.GetObject();
-        #region common Bind Dropdown list
+        #region 
         public IEnumerable<BindAllDropdownlist.DropdownMasterDetails> BindAllDropdownlists(string drpType)
         {
             List<BindAllDropdownlist.DropdownMasterDetails> bindAllDropdownlists = new List<BindAllDropdownlist.DropdownMasterDetails>();
@@ -32,18 +32,6 @@ namespace DAL.Repository
                 {
                     ObjVendor._Collection_Models_list = objDetails.Read<BindAllDropdownlist.Generic_Type>().ToList();
                 }
-                //if (drpType == Constant.ddlNCDType)
-                //{
-                //    ObjVendor._Investment_Models_list = objDetails.Read<BindAllDropdownlist.Generic_Type>().ToList();
-                //}
-                //if (drpType == Constant.ddlScheme)
-                //{
-                //    ObjVendor._Investment_Models_list = objDetails.Read<BindAllDropdownlist.Generic_Type>().ToList();
-                //}
-                //if (drpType == Constant.dllFieldParameter)
-                //{
-                //    ObjVendor._Investment_Models_list = objDetails.Read<BindAllDropdownlist.Generic_Type>().ToList();
-                //}
                 bindAllDropdownlists.Add(ObjVendor);
             }
             catch (Exception ex)
@@ -57,31 +45,28 @@ namespace DAL.Repository
             }
             return bindAllDropdownlists;
         }
-        
-        #endregion
-        #region Investment Form Vendor
-        public List<InvestmentFormModel> CRUD_InvestmentFormVendor(InvestmentFormModel model, string type, string UserId)
-        {
-            List<InvestmentFormModel> _modellist = new List<InvestmentFormModel>();
-            //try
-            //{
-            using (conn = ObjCon.makeConnection())
-            {
-                var objDetails = SqlMapper.QueryMultiple(conn, "[CRUD_InvestmentForm_Master]", new { model.ID, model.CustomerName, type, UserId, model.IsActive,model.CustomerNo,model.PhoneNo,model.RevisedDue,model.ExitTYpe }, commandType: CommandType.StoredProcedure);
-                _modellist = objDetails.Read<InvestmentFormModel>().ToList();
-            }
-            //}
-            //catch (Exception ex)
-            //{
-            //    ex.Data.Add("SubscriptionName", "IBL");
-            //    ex.Data.Add("LoginUser", "");
-            //}
-            //finally
-            //{
-            //    conn = ObjCon.closeConnection();
-            //}
-            return _modellist;
-        }
+        //public List<InvestmentFormModel> CRUD_InvestmentFormVendor(InvestmentFormModel model, string type, string UserId)
+        //{
+        //    List<InvestmentFormModel> _modellist = new List<InvestmentFormModel>();
+        //    //try
+        //    //{
+        //    using (conn = ObjCon.makeConnection())
+        //    {
+        //        var objDetails = SqlMapper.QueryMultiple(conn, "[CRUD_InvestmentForm_Master]", new { model.ID, model.CustomerName, type, UserId, model.IsActive,model.CustomerNo,model.PhoneNo,model.RevisedDue,model.ExitTYpe }, commandType: CommandType.StoredProcedure);
+        //        _modellist = objDetails.Read<InvestmentFormModel>().ToList();
+        //    }
+        //    //}
+        //    //catch (Exception ex)
+        //    //{
+        //    //    ex.Data.Add("SubscriptionName", "IBL");
+        //    //    ex.Data.Add("LoginUser", "");
+        //    //}
+        //    //finally
+        //    //{
+        //    //    conn = ObjCon.closeConnection();
+        //    //}
+        //    return _modellist;
+        //}
         public List<Vendor> CRUD_Vendor(Vendor model, string type)
         {
             List<Vendor> _modellist = new List<Vendor>();
@@ -105,8 +90,6 @@ namespace DAL.Repository
             return _modellist;
         }
         #endregion
-
-
         //public DataSet getPDFData(string id)
         //{
 
@@ -124,7 +107,5 @@ namespace DAL.Repository
         //    }
         //    return ds;
         //}
-
-
     }
 }

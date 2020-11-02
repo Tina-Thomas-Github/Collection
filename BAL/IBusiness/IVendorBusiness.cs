@@ -11,7 +11,7 @@ namespace BAL.IBusiness
     {
         #region VendorsForm
         IEnumerable<BindAllDropdownlist.DropdownMasterDetails> BindAllDropdownlists(string drpType);
-        List<InvestmentFormModel> CRUD_InvestmentFormVendor(InvestmentFormModel model, string UserId);
+        //List<InvestmentFormModel> CRUD_InvestmentFormVendor(InvestmentFormModel model, string UserId);
         List<Vendor> CRUD_Vendor(Vendor model);
         #endregion
     }

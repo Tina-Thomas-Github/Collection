@@ -34,7 +34,7 @@ function Login() {
                 }
                 else {
                     //window.location.href = "/Account/Security";
-                    window.location.href = "/Home/Dashboard";
+                    window.location.href = "/Home/DashboardUser";
                     return true;
                 }
             },

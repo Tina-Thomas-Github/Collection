@@ -13,7 +13,8 @@ namespace MODELS
         public string StartDate { get; set; }
         public string StartTime { get; set; }
         public string Vendor { get; set; }
-        public string FileUpload { get; set; }
+        public string FileName { get; set; }
+        public string FilePath{ get; set; }
         //public bool IsActive { get; set; }
         public string ModelStatus { get; set; }
         public int CustomerCount { get; set; }

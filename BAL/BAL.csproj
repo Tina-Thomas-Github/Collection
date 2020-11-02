@@ -66,11 +66,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Business\AccountBusiness.cs" />
+    <Compile Include="Business\DataWarehouseBusiness.cs" />
     <Compile Include="Business\DashboardBusiness.cs" />
     <Compile Include="Business\CampaignBusiness.cs" />
     <Compile Include="Business\VendorBusiness.cs" />
     <Compile Include="Helpers\Constants.cs" />
     <Compile Include="IBusiness\IAccountBusiness.cs" />
+    <Compile Include="IBusiness\IDataWarehouseBusiness.cs" />
     <Compile Include="IBusiness\IDashboardBusiness.cs" />
     <Compile Include="IBusiness\ICampaignBusiness.cs" />
     <Compile Include="IBusiness\IVendorBusiness.cs" />

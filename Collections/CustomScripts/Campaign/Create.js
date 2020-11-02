@@ -1,4 +1,4 @@
-﻿var Vendor = {};
+﻿var Campaign = {};
 var CommonModel = {};
 $(document).ready(function () {
     Binddropdown();
@@ -32,43 +32,60 @@ function Binddropdown() {
     });
 }
 function AddCampaign() {
-    if (validateField(true)) {
-        var chkflag = false;
-        if ($('#chkstatus').is(":checked")) {
-            var chkflag = true;
-        }
+    //if (validateField(true)) {
+    var formData = new FormData();
 
-        SchemeFormModel = {
-            SchemeFormID: $("#hdnschemeformid").val(),
-            SchemeCategory: $("#txtSchemeCategory").val(),
-            SchemeFormName: $("#txtSchemeFormName").val(),
-            InvestmentTypeID: $("#ddlInvestmentType option:selected").val(),
-            IsActive: chkflag,
-            Operation: "add"
-        };
+    //formData.append("SchemeConfigID", $("#hdnSchemeConfigID").val());
+    formData.append("CampaignName", $("#txtCampaignName").val());
+    formData.append("StartDate", $("#txtStartDate").val());
+    formData.append("StartTime", $("#txtStartTime").val());
+    formData.append("Vendor", $("#dllVendor option:selected").text());
+
+    //formData.append("FieldParamter", multiSelect);
+    formData.append("FileName", document.getElementById("FileUpload").files[0].name);
+    formData.append("FilePath", document.getElementById("FileUpload").files[0]);
+    formData.append("contentType", 'content/pdf');
+    //formData.append("IsActive", chkflag);
+    formData.append("Opertion", 'add');
+
+
+
+    //Campaign= {
+    //    //CampaignID: $("#hdnCampaignId").val(),
+    //    CampaignName: $("#txtCampaignName").val(),
+    //    StartDate: $("#txtStartDate").val(),
+    //    StartTime: $("#txtStartTime").val(),
+    //    Vendor: $("#dllVendor option: selected").val(),
+    //        //IsActive: chkflag,
+    //        Operation: "add"
+     //   };
         $.ajax({
-            url: "/Master/CRUD_Campaign",
+            url: "/Campaign/Create",
             type: "POST",
-            contentType: "application/json;charset=utf-8",
+            //contentType: "application/json;charset=utf-8",
+            contentType: false,
+            processData: false,
             dataType: "json",
-            data: JSON.stringify(SchemeFormModel),
+            //data: JSON.stringify(Campaign),
+            data: formData,
             success: function (response) {
                 //$(".loader").fadeOut("slow");
-                if (response[0].Message.toLowerCase() == "scheme already exists") {
+                if (response[0].Message.toLowerCase() == "campaign file uploaded successfully") {
                     bootbox.alert(response[0].Message);
-                    return false;
-                }
-                else {
-                    bootbox.alert({
-                        message: response[0].Message,
-                        callback: function () {
-                            ClearFields();
-                            BindData();
-                            $('#SchemeFormMaster').modal('hide');
-                        }
-                    });
+                    ClearFields();
                     return true;
                 }
+                //else {
+                //    bootbox.alert({
+                //        message: response[0].Message,
+                //        callback: function () {
+                //            ClearFields();
+                //            //BindData();
+                //            //$('#SchemeFormMaster').modal('hide');
+                //        }
+                //    });
+                //    return true;
+                //}
             },
             error: function (response) {
                 $(".loader").fadeOut("slow");
@@ -79,7 +96,7 @@ function AddCampaign() {
                 window.location.href = "/Account/Login";
             }
         });
-    }
+    //}
 }
 function ClearFields() {
     window.location.href = "/Campaign/Create";

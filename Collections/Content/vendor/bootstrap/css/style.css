@@ -530,3 +530,120 @@ select {
 #View_warehouse .modal-footer {
     padding: 0 0 20px !important;
 }
+#homepage button.slick-next {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    background: transparent;
+    border: 0px;
+    color: transparent;
+    background: transparent url('../../../../Images/right_arrow.svg') no-repeat scroll center right;
+}
+
+#homepage button.slick-prev.slick-arrow {
+    position: absolute;
+    right: 100px;
+    z-index: 99;
+    background: transparent;
+    border: 0px;
+    color: transparent;
+    background: transparent url('../../../../Images/left_arrow.svg') no-repeat scroll center right;
+}
+
+#homepage button:focus, #homepage button:focus {
+    border: 0px;
+    outline: 0px;
+}
+
+#homepage .slick-list.draggable {
+    padding: 40px 0;
+}
+
+#homepage .cstm_slidr {
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+    #homepage .cstm_slidr .img-fluid {
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin: 0px 0 10px 0 !important;
+        background: #fff;
+    }
+
+    #homepage .cstm_slidr canvas {
+        width: 100% !important;
+        height: 230px !important;
+        padding: 10px;
+    }
+
+#homepage h3.csmt_h3 {
+    position: relative;
+    top: 30px;
+    font-size: 28px;
+}
+
+
+
+/* Dropdown Button */
+#homepage .dropbtn {
+    background-color: transparent;
+    color: #666;
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+    line-height: 25px;
+    position: absolute;
+    left: 298px;
+    z-index: 99;
+    top: -8px;
+}
+
+    /* Dropdown button on hover & focus */
+    #homepage .dropbtn:hover, #homepage .dropbtn:focus {
+        background-color: transparent;
+    }
+
+/* The container <div> - needed to position the dropdown content */
+#homepage .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+#homepage .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 230px;
+    top: 20px;
+}
+
+#chartContainer1.hideChart {
+    display: none !important;
+}
+
+#chartContainer2.hideChart {
+    display: none !important;
+}
+
+/* Links inside the dropdown */
+#homepage .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+}
+
+    /* Change color of dropdown links on hover */
+    #homepage .dropdown-content a:hover {
+        background-color: #ddd
+    }
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+#homepage .show {
+    display: block;
+}
